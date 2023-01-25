@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,124 @@
     <title>Popup modal</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body class="modal-popup">
     <div class="container">
-        <div class="share-card"></div>
-        <div class="event-card"></div>
+        <div class="share-card">
+            <header class="card-header">
+                <div class="title">Share</div>
+                <button>
+                    <div class="options-icon"></div>
+                </button>
+            </header>
+
+            <div class="card-body">
+                <div class="row">
+                    <div class="user-badge">
+                        <div class="icon-bg">a</div>
+                        <div class="username">Wade Warren</div>
+                        <div class="button">
+                            <div class="plus-icon"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="input-bg">
+                        <textarea class="message" placeholder="Whats on your mind"></textarea>
+                        <div class="tool-bar">
+                            <ul class="tools">
+                                <li>
+                                    <div class="bold-icon"></div>
+                                </li>
+                                <li>
+                                    <div class="italic-icon"></div>
+                                </li>
+                                <li>
+                                    <div class="underline-icon"></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="notify">
+                    <input type="checkbox" class="custom-checkbox">
+                    notify people
+                </div>
+
+                <div class="card-footer">
+                    <a href="#" class="advanced">advanced</a>
+                    <div class="button-group">
+                        <button class="md-secondary">cancel</button>
+                        <button class="md-primary">save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="event-card">
+            <header class="card-header">
+                <div class="title"></div>
+                <div class="event-icon"></div>
+            </header>
+
+            <div class="card-body">
+                <form class="event-form">
+                    <div class="input-group">
+                        <input type="text" placeholder="event title">
+                        <div class="number">160</div>
+                    </div>
+
+                    <div class="button-group">
+                        <button>event</button>
+                        <button>reminder</button>
+                    </div>
+
+                    <div class="colors">
+                        colors
+                        <ul class="colors">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+
+                    <div class="row">
+                        <div class="input-group active">
+
+                            <input type="text" placeholder="Thursday, 24 Nov 2022">
+                            <div class="calendar-icon"></div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="innput-group">
+                            <div class="start-time">
+                                <input type="text" placeholder="9:00 am">
+                                <div class="chevron-down"></div>
+                            </div>
+                            <div class="end-time">
+                                <input type="text" placeholder="11:30 am">
+                                <div class="chevron-down"></div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="card-footer">
+                <a href="#" class="advanced">advanced</a>
+                <div class="button-group">
+                    <button class="md-secondary">cancel</button>
+                    <button class="md-primary">save</button>
+                </div>
+            </div>
+        </div>
+
         <div class="settings-card">
             <header class="card-header">
                 <div class="title">
@@ -18,8 +133,12 @@
                 </div>
 
                 <div class="button-group">
-                    <button><div class="light-icon"></div></button>
-                    <button><div class="dark-icon"></div></button>
+                    <button>
+                        <div class="light-icon"></div>
+                    </button>
+                    <button>
+                        <div class="dark-icon"></div>
+                    </button>
                 </div>
             </header>
 
@@ -33,7 +152,7 @@
                             <div class="progress"></div>
                         </div>
                     </li>
-                    
+
                     <li>
                         <div class="icon-bg">sound-icon</div>
                         <div class="name">Sound</div>
@@ -65,4 +184,5 @@
         </div>
     </div>
 </body>
+
 </html>
