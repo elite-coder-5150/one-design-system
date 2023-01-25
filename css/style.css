@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body.modal-popup {
+  background: #E5EAF3;
+}
+
+.row {
+  display: flex;
+}
