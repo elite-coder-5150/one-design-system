@@ -5,6 +5,8 @@
 }
 
 body {
+    font-family: $base-font-family;
+    
     &.modal-popup {
         background: $clr-modal-bg;
     }
