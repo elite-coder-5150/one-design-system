@@ -4,10 +4,73 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Inter", sans-serif;
+}
 body.modal-popup {
   background: #E5EAF3;
 }
 
 .row {
   display: flex;
+}
+
+.card, .settings-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 40px 32px;
+  width: 360px;
+  height: 564px;
+}
+
+.settings-card {
+  position: absolute;
+  top: 184px;
+  left: 114px;
+}
+.settings-card .card-header {
+  display: flex;
+}
+.settings-card .card-header .title {
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.settings-card .card-header .button-group {
+  margin-left: auto;
+  width: 96px;
+  height: 44px;
+}
+.settings-card .card-header .button-group button {
+  border: 1px solid #EFF2F7;
+}
+.settings-card .card-header .button-group .md-secondary {
+  border-top-left-radius: 22px;
+  border-bottom-left-radius: 22px;
+  width: 48px;
+  height: 44px;
+}
+.settings-card .card-header .button-group .md-primary {
+  width: 48px;
+  height: 44px;
+}
+
+.share-card {
+  position: absolute;
+  top: 132px;
+  left: 962px;
+  background: #fff;
+}
+
+.event-card {
+  position: absolute;
+  top: 380px;
+  left: 538px;
+  background: #fff;
+}
+
+.light-icon {
+  background: url("../img/light-mod-icon.png") no-repeat;
+  width: 24px;
+  height: 24px;
+  margin-left: 14px;
 }
