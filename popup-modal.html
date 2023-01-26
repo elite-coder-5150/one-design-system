@@ -133,10 +133,10 @@
                 </div>
 
                 <div class="button-group">
-                    <button>
+                    <button class="md-secondary">
                         <div class="light-icon"></div>
                     </button>
-                    <button>
+                    <button class="md-primary">
                         <div class="dark-icon"></div>
                     </button>
                 </div>
@@ -145,16 +145,25 @@
             <div class="card-body">
                 <ul>
                     <li>
-                        <div class="icon-bg">sound-icon</div>
-                        <div class="name">Sound</div>
-                        <div class="percent">76%</div>
-                        <div class="progress-bg">
-                            <div class="progress"></div>
+                        <div class="left">
+                            <div class="icon-bg first">
+                                <div class="volume-icon"></div>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="name">Sound <span class="percent">76%</span></div>
+                            <div class="progress-bg">
+                                <div class="progress"></div>
+                            </div>
                         </div>
                     </li>
 
                     <li>
-                        <div class="icon-bg">sound-icon</div>
+                        <div class="left">
+                        <div class="icon-bg second">
+                            <div class="volume-icon"></div>
+                        </div>
+                        </div>
                         <div class="name">Sound</div>
                         <input type="checkbox" class="toggle-ctrl">
                     </li>
@@ -172,15 +181,16 @@
                         </div>
                     </form>
                 </div>
-            </div>
 
-            <div class="card-footer">
+               
+            </div>
+            <footer class="card-footer">
                 <a href="#" class="advanced">advanced</a>
                 <div class="button-group">
                     <button class="md-secondary">cancel</button>
                     <button class="md-primary">save</button>
                 </div>
-            </div>
+            </footer>
         </div>
     </div>
 </body>
