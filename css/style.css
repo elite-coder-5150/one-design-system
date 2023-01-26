@@ -18,7 +18,6 @@ body.modal-popup {
 .card, .settings-card {
   background: #fff;
   border-radius: 8px;
-  padding: 40px 32px;
   width: 360px;
   height: 564px;
 }
@@ -30,20 +29,24 @@ body.modal-popup {
 }
 .settings-card .card-header {
   display: flex;
+  padding: 20px 32px;
 }
 .settings-card .card-header .title {
   font-size: 18px;
   text-transform: capitalize;
+  line-height: 44px;
 }
 .settings-card .card-header .button-group {
   margin-left: auto;
   width: 96px;
   height: 44px;
+  display: flex;
 }
 .settings-card .card-header .button-group button {
   border: 1px solid #EFF2F7;
 }
 .settings-card .card-header .button-group .md-secondary {
+  background-color: #fff;
   border-top-left-radius: 22px;
   border-bottom-left-radius: 22px;
   width: 48px;
@@ -52,6 +55,93 @@ body.modal-popup {
 .settings-card .card-header .button-group .md-primary {
   width: 48px;
   height: 44px;
+  background: #fff;
+  border: 1px solid #EFF2F7;
+  border-left: 0;
+  border-top-right-radius: 22px;
+  border-bottom-right-radius: 22px;
+}
+.settings-card .card-body {
+  padding: 20px 32px;
+}
+.settings-card .card-body ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin-top: 0;
+}
+.settings-card .card-body ul li {
+  display: inline-flex;
+  padding: 22px 0;
+  border-bottom: 1px solid #EFF2F7;
+}
+.settings-card .card-body ul li .left {
+  margin-right: 20px;
+}
+.settings-card .card-body ul li .left .icon-bg {
+  width: 64px;
+  height: 64px;
+  border-radius: 32px;
+  padding: 18px;
+}
+.settings-card .card-body ul li .left .icon-bg.first {
+  background: #932BFF;
+}
+.settings-card .card-body ul li .left .icon-bg.second {
+  background: #00D0AF;
+}
+.settings-card .card-body ul li .right .percent {
+  margin-left: 124px;
+}
+.settings-card .card-body ul li .right .progress-bg {
+  background: #D7DEEC;
+  width: 208px;
+  height: 8px;
+  border-radius: 4px;
+  margin-top: 15px;
+}
+.settings-card .card-body ul li .right .progress-bg .progress {
+  background: #932BFF;
+  height: 8px;
+  width: 78%;
+  border-radius: 4px;
+}
+.settings-card .card-body .upload {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.settings-card .card-footer {
+  display: flex;
+  background: #F4F7FA;
+  padding: 20px 32px;
+}
+.settings-card .card-footer a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 14px;
+  color: #7890B5;
+}
+.settings-card .card-footer .button-group {
+  margin-left: auto;
+  display: flex;
+  column-gap: 8px;
+}
+.settings-card .card-footer .button-group button {
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.settings-card .card-footer .button-group .md-secondary {
+  border: none;
+  background-color: #fff;
+  color: #3A5683;
+}
+.settings-card .card-footer .button-group .md-primary {
+  background: #932BFF;
+  border: none;
+  color: #fff;
 }
 
 .share-card {
@@ -66,6 +156,7 @@ body.modal-popup {
   top: 380px;
   left: 538px;
   background: #fff;
+  width: 360px;
 }
 
 .light-icon {
@@ -73,4 +164,17 @@ body.modal-popup {
   width: 24px;
   height: 24px;
   margin-left: 14px;
+}
+
+.dark-icon {
+  background: url("../img/dark-mod-icon.png") no-repeat;
+  width: 24px;
+  height: 24px;
+  margin-left: 12px;
+}
+
+.volume-icon {
+  background: url("../img/volume-icon.png") no-repeat;
+  width: 28px;
+  height: 28px;
 }
