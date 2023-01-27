@@ -109,7 +109,7 @@ body.modal-popup {
 .settings-card .card-body .upload {
   display: flex;
   flex-direction: column;
-  padding: 24px 20px;
+  padding: 24px 0;
   border-bottom: 1px solid #EFF2F7;
 }
 .settings-card .card-body .upload .input-bg {
@@ -130,6 +130,7 @@ body.modal-popup {
   padding: 8px 0;
   text-indent: 15px;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 .settings-card .card-body .upload .md-secondary {
   border: none;
@@ -185,11 +186,146 @@ body.modal-popup {
 
 .event-card {
   position: absolute;
-  top: 380px;
+  top: 350px;
   left: 538px;
   background: #fff;
   width: 360px;
+}
+.event-card .card-header {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 24px;
+}
+.event-card .card-header .title {
+  font-size: 18px;
+  text-transform: capitalize;
+  line-height: 44px;
+}
+.event-card .card-header .event-icon {
+  margin-left: auto;
+  margin-top: 7px;
+}
+.event-card .card-body {
+  padding: 0 24px;
+}
+.event-card .card-body .event-form {
+  margin-top: 24px;
+}
+.event-card .card-body .event-form .input-group {
+  width: 100%;
+  border: 1px solid #EFF2F7;
+  display: flex;
+  height: 60px;
+}
+.event-card .card-body .event-form .input-group .number {
+  margin-left: auto;
+  background: #F4F7FA;
+  padding: 4px 8px;
+  font-size: 12px;
+  height: 24px;
+  border: 1px solid #EFF2F7;
+  margin-top: 14px;
+  margin-right: 18px;
+}
+.event-card .card-body .event-form .input-group input {
+  border: none;
+  text-indent: 15px;
+  text-transform: capitalize;
+  color: #7890B5;
+}
+.event-card .card-body .event-form .button-group {
+  display: flex;
+  column-gap: 10px;
+  border: 1px solid #EFF2F7;
+  margin-top: 24px;
+}
+.event-card .card-body .event-form .button-group button {
+  width: 48%;
+  border: none;
+  padding: 12px 0;
+  color: #57719D;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.event-card .card-body .event-form .button-group .event {
+  background: #FAFBFC;
+}
+.event-card .card-body .event-form .button-group .reminder {
+  background: #fff;
+}
+.event-card .card-body .event-form .colors {
+  margin-top: 25px;
+}
+.event-card .card-body .event-form .colors .title {
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.event-card .card-body .event-form .colors-list {
+  display: flex;
+  list-style: none;
+}
+.event-card .card-body .event-form .colors-list li {
+  width: 32px;
+  height: 32px;
+  display: inline-flex;
+  border-radius: 1rem;
+  margin-right: 8px;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+.event-card .card-body .event-form .colors-list li.red {
+  background: #FB001D;
+}
+.event-card .card-body .event-form .colors-list li.orange {
+  background: #FF5713;
+}
+.event-card .card-body .event-form .colors-list li.yellow {
+  background: #FFC800;
+}
+.event-card .card-body .event-form .colors-list li.green {
+  background: #00EAC9;
+}
+.event-card .card-body .event-form .colors-list li.blue {
+  background: #00C2FF;
+}
+.event-card .card-body .event-form .colors-list li.purple {
+  background: #932BFF;
+}
+.event-card .card-body .event-form .input-bg {
+  padding: 0 24px;
+}
+.event-card .card-footer {
+  display: flex;
+  background: #F4F7FA;
   padding: 20px 32px;
+}
+.event-card .card-footer a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 14px;
+  color: #7890B5;
+  line-height: 40px;
+}
+.event-card .card-footer .button-group {
+  margin-left: auto;
+  display: flex;
+  column-gap: 8px;
+}
+.event-card .card-footer .button-group button {
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.event-card .card-footer .button-group .md-secondary {
+  border: none;
+  background-color: #fff;
+  color: #3A5683;
+}
+.event-card .card-footer .button-group .md-primary {
+  background: #932BFF;
+  border: none;
+  color: #fff;
 }
 
 .toggle-ctrl {
@@ -257,4 +393,10 @@ body.modal-popup {
   background: url("../img/download-icon.png") no-repeat;
   width: 20px;
   height: 20px;
+}
+
+.event-icon {
+  background: url("../img/event-icon.png") no-repeat;
+  width: 24px;
+  height: 24px;
 }
