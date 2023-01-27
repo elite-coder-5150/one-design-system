@@ -294,6 +294,18 @@ body.modal-popup {
 .event-card .card-body .event-form .input-bg {
   padding: 0 24px;
 }
+.event-card .card-body .event-form .input-group .calendar-icon {
+  margin-left: auto;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+.event-card .card-body .event-form .input-group .input-bg {
+  padding: 0;
+}
+.event-card .card-body .event-form .input-group .input-bg .start-tie,
+.event-card .card-body .event-form .input-group .input-bg .end-time {
+  width: 48%;
+}
 .event-card .card-footer {
   display: flex;
   background: #F4F7FA;
@@ -397,6 +409,12 @@ body.modal-popup {
 
 .event-icon {
   background: url("../img/event-icon.png") no-repeat;
+  width: 24px;
+  height: 24px;
+}
+
+.calendar-icon {
+  background: url("../img/calendar-icon.png") no-repeat;
   width: 24px;
   height: 24px;
 }
