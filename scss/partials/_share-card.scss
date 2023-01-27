@@ -2,5 +2,10 @@
     position: absolute;
     top: 132px;
     left: 962px;
-    background: $clr-light-bg;  
+    background: $clr-light-bg;
+    width: 360px;
+    
+    .card-header {
+        display: flex;
+    }
 }
