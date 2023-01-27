@@ -109,7 +109,37 @@ body.modal-popup {
 .settings-card .card-body .upload {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 24px 20px;
+  border-bottom: 1px solid #EFF2F7;
+}
+.settings-card .card-body .upload .input-bg {
+  border: 1px solid #EFF2F7;
+  height: 44px;
+  width: 276px;
+  background: #FAFBFC;
+  position: relative;
+  top: 8px;
+}
+.settings-card .card-body .upload .input-bg input {
+  width: 180px;
+  border: 1px solid #EFF2F7;
+  background: #FAFBFC;
+  position: relative;
+  top: 4px;
+  padding: 8px 0;
+  text-indent: 15px;
+  font-weight: bold;
+}
+.settings-card .card-body .upload .md-secondary {
+  border: none;
+  background: #fff;
+  margin-left: auto;
+  padding: 6px;
+  box-shadow: 0px 60px 120px rgba(38, 51, 77, 0.03);
+  margin-left: 40px;
+  border: 1px solid #EFF2F7;
+  position: absolute;
+  top: 4px;
 }
 .settings-card .card-footer {
   display: flex;
@@ -121,6 +151,7 @@ body.modal-popup {
   text-transform: capitalize;
   font-size: 14px;
   color: #7890B5;
+  line-height: 40px;
 }
 .settings-card .card-footer .button-group {
   margin-left: auto;
@@ -177,4 +208,10 @@ body.modal-popup {
   background: url("../img/volume-icon.png") no-repeat;
   width: 28px;
   height: 28px;
+}
+
+.download-icon {
+  background: url("../img/download-icon.png") no-repeat;
+  width: 20px;
+  height: 20px;
 }
