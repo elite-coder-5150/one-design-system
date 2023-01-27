@@ -61,6 +61,7 @@
 
                 .left {
                     margin-right: 20px;
+                    position: relative;
                     
                     .icon-bg {
                         width: 64px;
@@ -105,7 +106,7 @@
         .upload {
             display: flex;
             flex-direction: column;
-            padding: 24px 20px;
+            padding: 24px 0;
             border-bottom: 1px solid $clr-base-border;
             
             .input-bg {
@@ -115,15 +116,18 @@
                 background: $clr-input-bg;
                 position: relative;
                 top: 8px;
+
+                margin-top: 6px;
                 input {
                     width: 180px;
-                    border: 1px solid $clr-base-border;
+                    border: 0;
                     background: $clr-input-bg;
                     position: relative;
                     top: 4px;
                     padding: 8px 0;
                     text-indent: 15px;
                     font-weight: bold;
+                    margin-bottom: 20px;
                 }
             }
 
