@@ -182,6 +182,10 @@ body.modal-popup {
   top: 132px;
   left: 962px;
   background: #fff;
+  width: 360px;
+}
+.share-card .card-header {
+  display: flex;
 }
 
 .event-card {
@@ -299,11 +303,12 @@ body.modal-popup {
   margin-top: 15px;
   margin-right: 20px;
 }
-.event-card .card-body .event-form .input-group .input-bg {
+.event-card .card-body .event-form .times {
+  display: flex;
   padding: 0;
 }
-.event-card .card-body .event-form .input-group .input-bg .start-tie,
-.event-card .card-body .event-form .input-group .input-bg .end-time {
+.event-card .card-body .event-form .times .start-tie,
+.event-card .card-body .event-form .times .end-time {
   width: 48%;
 }
 .event-card .card-footer {
