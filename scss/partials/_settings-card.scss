@@ -98,18 +98,48 @@
                             border-radius: 4px;
                         }
                     }
-                }
-
-                
+                }   
             }
-
-            
         }
 
         .upload {
             display: flex;
             flex-direction: column;
-            padding: 20px;
+            padding: 24px 20px;
+            border-bottom: 1px solid $clr-base-border;
+            
+            .input-bg {
+                border: 1px solid $clr-base-border;
+                height: 44px;
+                width: 276px;
+                background: $clr-input-bg;
+                position: relative;
+                top: 8px;
+                input {
+                    width: 180px;
+                    border: 1px solid $clr-base-border;
+                    background: $clr-input-bg;
+                    position: relative;
+                    top: 4px;
+                    padding: 8px 0;
+                    text-indent: 15px;
+                    font-weight: bold;
+                }
+            }
+
+            .md-secondary {
+                border: none;
+                background: $clr-light-bg;
+                margin-left: auto;
+                padding: 6px;
+                box-shadow: $box-shadow;
+                margin-left: 40px;
+                
+                border: 1px solid $clr-base-border;
+
+                position: absolute;
+                top: 4px;
+            }
         }
     }
 
@@ -123,6 +153,7 @@
             text-transform: capitalize;
             font-size: 14px;
             color: $clr-link;
+            line-height: 40px;
         }
         .button-group {
             margin-left: auto;
