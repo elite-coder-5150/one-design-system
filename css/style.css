@@ -19,7 +19,6 @@ body.modal-popup {
   background: #fff;
   border-radius: 8px;
   width: 360px;
-  height: 564px;
 }
 
 .settings-card {
@@ -77,6 +76,7 @@ body.modal-popup {
 }
 .settings-card .card-body ul li .left {
   margin-right: 20px;
+  position: relative;
 }
 .settings-card .card-body ul li .left .icon-bg {
   width: 64px;
@@ -119,10 +119,11 @@ body.modal-popup {
   background: #FAFBFC;
   position: relative;
   top: 8px;
+  margin-top: 6px;
 }
 .settings-card .card-body .upload .input-bg input {
   width: 180px;
-  border: 1px solid #EFF2F7;
+  border: 0;
   background: #FAFBFC;
   position: relative;
   top: 4px;
@@ -188,6 +189,48 @@ body.modal-popup {
   left: 538px;
   background: #fff;
   width: 360px;
+  padding: 20px 32px;
+}
+
+.toggle-ctrl {
+  position: absolute;
+  right: 32px;
+  top: 180px;
+  display: flex;
+}
+.toggle-ctrl input[type=checkbox] {
+  appearance: none;
+  border: 1px solid transparent;
+  background: #F2F4F7;
+  width: 36px;
+  height: 20px;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-left: 50px;
+  position: relative;
+  transition: 240ms background-color;
+}
+.toggle-ctrl input[type=checkbox]::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 1px;
+  transform: translateY(-50%);
+  transition: 240ms background-color, 240ms left;
+  will-change: left;
+  box-shadow: 0px 1px 3px rgba(16, 24, 40, 0.1), 0px 1px 2px rgba(16, 24, 40, 0.06);
+}
+.toggle-ctrl input[type=checkbox]:checked {
+  background: #932BFF;
+}
+.toggle-ctrl input[type=checkbox]:checked::before {
+  left: 20px;
+  background: white;
+  border: 1px solid #EFF2F7;
 }
 
 .light-icon {
