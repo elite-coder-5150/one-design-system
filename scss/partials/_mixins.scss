@@ -1,0 +1,6 @@
+@mixin border($size, $color) {}
+
+@function px-to-rem($px, $value: 16) {
+    $result: calc($px / $value) * 1em;
+    @return $result;
+} 
