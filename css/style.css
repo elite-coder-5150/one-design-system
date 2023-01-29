@@ -186,11 +186,59 @@ body.modal-popup {
 }
 .share-card .card-header {
   display: flex;
+  padding: 20px 24px;
+}
+.share-card .card-body {
+  padding: 24px;
+}
+.share-card .card-body .input-bg {
+  height: 300px;
+  border: 1px solid #EFF2F7;
+}
+.share-card .card-body .input-bg .message {
+  width: 100%;
+  resize: none;
+  border: none;
+  padding: 15px;
+  font-family: "Inter", sans-serif;
+}
+.share-card .card-footer {
+  display: flex;
+  background: #F4F7FA;
+  padding: 20px 32px;
+}
+.share-card .card-footer a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 14px;
+  color: #7890B5;
+  line-height: 40px;
+}
+.share-card .card-footer .button-group {
+  margin-left: auto;
+  display: flex;
+  column-gap: 8px;
+}
+.share-card .card-footer .button-group button {
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.share-card .card-footer .button-group .md-secondary {
+  border: none;
+  background-color: #fff;
+  color: #3A5683;
+}
+.share-card .card-footer .button-group .md-primary {
+  background: #932BFF;
+  border: none;
+  color: #fff;
 }
 
 .event-card {
   position: absolute;
-  top: 350px;
+  top: 280px;
   left: 538px;
   background: #fff;
   width: 360px;
@@ -306,10 +354,24 @@ body.modal-popup {
 .event-card .card-body .event-form .times {
   display: flex;
   padding: 0;
+  column-gap: 26px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
-.event-card .card-body .event-form .times .start-tie,
+.event-card .card-body .event-form .times .start-time,
 .event-card .card-body .event-form .times .end-time {
   width: 48%;
+}
+.event-card .card-body .event-form .times .start-time input,
+.event-card .card-body .event-form .times .end-time input {
+  padding: 8px 0;
+  border: 1px solid #EFF2F7;
+  color: #7890B5;
+  text-indent: 15px;
+}
+.event-card .card-body .event-form .times .end-time {
+  margin-left: auto;
+  margin-left: 3px;
 }
 .event-card .card-footer {
   display: flex;
