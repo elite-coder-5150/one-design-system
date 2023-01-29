@@ -1,6 +1,6 @@
 .event-card {
     position: absolute;
-    top: 350px;
+    top: 280px;
     left: 538px;
     background: $clr-light-bg;
     width: 360px;
@@ -137,9 +137,24 @@
             .times {
                 display: flex;
                 padding: 0;
-                .start-tie,
+                column-gap: 26px;
+                margin-top: 24px;
+                margin-bottom: 24px;
+                .start-time,
                 .end-time {
                     width: 48%;
+                    
+                    input {
+                        padding: 8px 0;
+                        border: 1px solid $clr-base-border;
+                        color: $clr-link;
+                        text-indent: 15px;
+                    }
+                }
+
+                .end-time {
+                    margin-left: auto;
+                    margin-left: 3px;
                 }
             }
         }
