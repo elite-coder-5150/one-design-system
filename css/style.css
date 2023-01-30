@@ -485,7 +485,7 @@ body.modal-popup {
 }
 .new-message-card .card-footer {
   background-color: #F4F7FA;
-  padding: 30px 32px;
+  padding: 14px 24px 10px 24px;
   display: flex;
 }
 .new-message-card .card-footer .left ul {
