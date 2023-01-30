@@ -479,6 +479,10 @@ body.modal-popup {
 .new-message-card .card-header .primary li:last-child {
   margin-right: 0;
 }
+.new-message-card .card-body {
+  padding: 30px 32px;
+  display: flex;
+}
 .new-message-card .card-footer {
   background-color: #F4F7FA;
   padding: 30px 32px;
@@ -493,6 +497,29 @@ body.modal-popup {
 }
 .new-message-card .card-footer .right {
   margin-left: auto;
+}
+.new-message-card .card-footer .right .tool-bar {
+  list-style: none;
+  display: flex;
+}
+.new-message-card .card-footer .right li {
+  margin-left: 15px;
+  width: 2.75em;
+  height: 2.75em;
+}
+.new-message-card .card-footer .right li:nth-child(5) {
+  width: 5.625em;
+  height: 2.75em;
+}
+.new-message-card .card-footer .right .md-primary {
+  padding: 12px 10px;
+  border: none;
+  background: #E1E8FD;
+  color: #527af3;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 12px;
+  border-radius: 8px;
 }
 
 .light-icon {
@@ -566,6 +593,24 @@ body.modal-popup {
 
 .template-icon {
   background: url("../img/template-icon.png") no-repeat;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.tag-user-icon {
+  background: url("../img/tag-users.png") no-repeat;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.attach-icon {
+  background: url("../img/attach-file-icon.png") no-repeat;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.schedule-icon {
+  background: url("../img/schedule-icon.png") no-repeat;
   width: 1.5em;
   height: 1.5em;
 }
