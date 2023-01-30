@@ -448,40 +448,124 @@ body.modal-popup {
   border: 1px solid #EFF2F7;
 }
 
+.new-message-card {
+  background: #fff;
+  margin-top: 50px;
+  margin-left: 50px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  width: 34.5em;
+  height: 36.375em;
+}
+.new-message-card .card-header {
+  padding: 30px 32px;
+  display: flex;
+}
+.new-message-card .card-header .title {
+  font-size: 12px;
+  font-weight: 600;
+}
+.new-message-card .card-header .primary {
+  margin-left: auto;
+}
+.new-message-card .card-header .primary ul {
+  list-style-type: none;
+  display: flex;
+}
+.new-message-card .card-header .primary li {
+  margin-right: 14px;
+}
+.new-message-card .card-header .primary li:last-child {
+  margin-right: 0;
+}
+.new-message-card .card-footer {
+  background-color: #F4F7FA;
+  padding: 30px 32px;
+  display: flex;
+}
+.new-message-card .card-footer .left ul {
+  list-style: none;
+  display: flex;
+}
+.new-message-card .card-footer .left li {
+  margin-right: 16px;
+}
+.new-message-card .card-footer .right {
+  margin-left: auto;
+}
+
 .light-icon {
   background: url("../img/light-mod-icon.png") no-repeat;
-  width: 24px;
-  height: 24px;
+  width: 1.5em;
+  height: 1.5em;
   margin-left: 14px;
 }
 
 .dark-icon {
   background: url("../img/dark-mod-icon.png") no-repeat;
-  width: 24px;
-  height: 24px;
+  width: 1.5em;
+  height: 1.5em;
   margin-left: 12px;
 }
 
 .volume-icon {
   background: url("../img/volume-icon.png") no-repeat;
-  width: 28px;
-  height: 28px;
+  width: 1.75em;
+  height: 1.75em;
 }
 
 .download-icon {
   background: url("../img/download-icon.png") no-repeat;
-  width: 20px;
-  height: 20px;
+  width: 1.75em;
+  height: 1.75em;
 }
 
 .event-icon {
   background: url("../img/event-icon.png") no-repeat;
-  width: 24px;
-  height: 24px;
+  width: 1.5em;
+  height: 1.5em;
 }
 
 .calendar-icon {
   background: url("../img/calendar-icon.png") no-repeat;
-  width: 24px;
-  height: 24px;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.chevron-down {
+  background: url("../img/chevron-down.png") no-repeat;
+  width: 1.0625em;
+  height: 0.5em;
+  margin-top: 6px;
+}
+
+.expand-icon {
+  background: url("../img/expand-icon.png") no-repeat;
+  width: 1.25em;
+  height: 1.25em;
+}
+
+.close-icon {
+  background: url("../img/close-icon.png");
+  width: 1.25em;
+  height: 1.25em;
+}
+
+.trash-icon {
+  background: url("../img/trash-icon.png");
+  width: 1.25em;
+  height: 1.25em;
+}
+
+.more-icon {
+  background: url("../img/more-icon.png");
+  width: 1.25em;
+  height: 1.25em;
+}
+
+.template-icon {
+  background: url("../img/template-icon.png") no-repeat;
+  width: 1.5em;
+  height: 1.5em;
 }
