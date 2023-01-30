@@ -1,0 +1,59 @@
+.new-message-card {
+    background: $clr-light-bg;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+
+    @include size(552, 582);
+
+    .card-header {
+        padding: 30px 32px;
+
+        display: flex;
+        
+        .title {
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .primary {
+            margin-left: auto;
+
+            ul {
+                list-style-type: none;
+                display: flex;
+            }
+
+            li {
+                margin-right: 14px;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+
+        
+    }
+
+    .card-footer {
+        background-color: $clr-footer-bg;
+        padding: 30px 32px;
+        display: flex;
+        
+        .left {
+            ul {
+                list-style: none;
+                display: flex;
+            }
+            li {
+                margin-right: 16px;
+            }
+        }
+        .right {
+            margin-left: auto;
+        }
+    }
+}
