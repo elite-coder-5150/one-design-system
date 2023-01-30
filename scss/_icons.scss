@@ -1,37 +1,65 @@
 .light-icon {
     background: url('../img/light-mod-icon.png')no-repeat;
-    width: 24px;
-    height: 24px;
+
+    @include size(24, 24);
     margin-left: 14px;
 }
 
 .dark-icon {
     background: url('../img/dark-mod-icon.png') no-repeat;
-    width: 24px;
-    height: 24px;
+    @include size(24, 24);
     margin-left: 12px;
 }
 
 .volume-icon {
     background: url('../img/volume-icon.png') no-repeat;
-    width: 28px;
-    height: 28px;
+
+    @include size(28, 28)
 }
 
 .download-icon {
     background: url('../img/download-icon.png') no-repeat;
-    width: 20px;
-    height: 20px;
+    @include size(28, 28);
 }
 
 .event-icon {
     background: url('../img/event-icon.png') no-repeat;
-    width: 24px;
-    height: 24px;
+    @include size(24,24);
 }
 
 .calendar-icon {
     background: url('../img/calendar-icon.png') no-repeat;
-    width: 24px;
-    height: 24px;
+    @include size(24, 24);
+}
+
+.chevron-down {
+    background: url('../img/chevron-down.png') no-repeat;
+    @include size(17, 8);
+
+    margin-top: 6px;
+}
+
+.expand-icon {
+    background: url('../img/expand-icon.png') no-repeat;
+    @include size(20, 20);
+}
+
+.close-icon {
+    background: url('../img/close-icon.png');
+    @include size(20, 20);
+}
+
+.trash-icon {
+    background: url('../img/trash-icon.png');
+    @include size(20, 20);
+}
+
+.more-icon {
+    background: url('../img/more-icon.png');
+    @include size(20, 20);
+}
+
+.template-icon {
+    background: url('../img/template-icon.png') no-repeat;
+    @include size(24, 24);
 }
