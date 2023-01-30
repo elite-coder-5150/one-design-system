@@ -33,9 +33,12 @@
                     margin-right: 0;
                 }
             }
-        }
+        } 
+    }
 
-        
+    .card-body {
+        padding: 30px 32px;
+        display: flex;
     }
 
     .card-footer {
@@ -54,6 +57,33 @@
         }
         .right {
             margin-left: auto;
+
+            .tool-bar {
+                list-style: none;
+                display: flex;
+
+               
+            }
+
+            li {
+                margin-left: 15px;
+                @include size(44, 44);
+
+                &:nth-child(5) {
+                    @include size(90, 44);
+                }
+            }
+
+            .md-primary {
+                padding: 12px 10px;
+                border: none;
+                background: $clr-send-btn-bg;
+                color: darken($clr-send-btn-bg, 30%);
+                font-weight: 600;
+                text-transform: capitalize;
+                font-size: 12px;
+                border-radius: 8px;
+            }
         }
     }
 }
