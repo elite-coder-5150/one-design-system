@@ -4,3 +4,8 @@
     $result: calc($px / $value) * 1em;
     @return $result;
 } 
+
+@mixin size($w, $h) {
+    width: px-to-rem($w);
+    height: px-to-rem($h);
+}
