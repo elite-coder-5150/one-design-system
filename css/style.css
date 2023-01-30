@@ -502,16 +502,16 @@ body.modal-popup {
   list-style: none;
   display: flex;
 }
-.new-message-card .card-footer .right li {
+.new-message-card .card-footer .right .tool-bar li {
   margin-left: 15px;
   width: 2.75em;
   height: 2.75em;
 }
-.new-message-card .card-footer .right li:nth-child(5) {
+.new-message-card .card-footer .right .tool-bar li:nth-child(5) {
   width: 5.625em;
   height: 2.75em;
 }
-.new-message-card .card-footer .right .md-primary {
+.new-message-card .card-footer .right .tool-bar .md-primary {
   padding: 12px 10px;
   border: none;
   background: #E1E8FD;
