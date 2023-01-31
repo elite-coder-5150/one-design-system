@@ -91,6 +91,33 @@
                         margin-right: 0;
                     }
                 }
+            } /***** end of form group ****/
+
+            .subject {
+                margin-top: 20px;
+                margin-bottom: 20px;
+                padding: 18px 0;
+                display: flex;
+            
+                border: {
+                    top: 1px solid $clr-base-border;
+                    bottom: 1px solid $clr-base-border;
+                }
+
+                p {
+                    font-size: 12px;
+                    font-weight: 700;
+
+                    @include font-color($clr-email-subject-text);
+                }
+                .number {
+                    background: #F4F7FA;
+                    padding: 4px 6px;
+                    margin-left: auto;
+                    font-size: 10px;
+                    font-weight: 700;
+                    @include font-color($clr-form-label-text);
+                }
             }
         }
 
