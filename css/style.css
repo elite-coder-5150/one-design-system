@@ -498,6 +498,7 @@ body.modal-popup {
   flex-direction: column;
   flex-wrap: nowrap;
   width: calc(100% - 32px);
+  /***** end of form group ****/
 }
 .new-message-card .card-body .new-msg-form label {
   font-size: 12px;
@@ -527,6 +528,27 @@ body.modal-popup {
 }
 .new-message-card .card-body .new-msg-form .form-group li:last-child() {
   margin-right: 0;
+}
+.new-message-card .card-body .new-msg-form .subject {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 18px 0;
+  display: flex;
+  border-top: 1px solid #EFF2F7;
+  border-bottom: 1px solid #EFF2F7;
+}
+.new-message-card .card-body .new-msg-form .subject p {
+  font-size: 12px;
+  font-weight: 700;
+  color: #3A5683;
+}
+.new-message-card .card-body .new-msg-form .subject .number {
+  background: #F4F7FA;
+  padding: 4px 6px;
+  margin-left: auto;
+  font-size: 10px;
+  font-weight: 700;
+  color: #A0B2CF;
 }
 .new-message-card .card-footer {
   background-color: #F4F7FA;
