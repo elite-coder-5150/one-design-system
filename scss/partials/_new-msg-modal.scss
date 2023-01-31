@@ -41,27 +41,59 @@
         display: flex;
         flex-direction: row;
 
-       
+
 
         input {
-            display: flex;
+            border: none;
+            height: 24px;
+            width: 100%;
+
+            &::-webkit-input-placeholder {
+                font-size: 12px;
+                font-weight: 600;
+                color: darken($clr-form-label-text, 10%);
+            }
         }
 
         .new-msg-form {
             display: flex;
             flex-direction: column;
             flex-wrap: nowrap;
-            width: 300px;
-            label { 
+            width: calc(100% - 32px);
+
+            label {
                 font-size: 12px;
-                
+                text-transform: capitalize;
+                font-weight: 600;
+                margin-right: 10px;
+                line-height: 24px;
+
+                @include font-color($clr-form-label-text);
             }
 
             .form-group {
                 display: flex;
+
+                ul {
+                    display: flex;
+                    margin-left: 10px;
+                    @include unstyled-list();
+                }
+
+                li {
+                    margin-right: 10px;
+                    color: $clr-form-label-text;
+                    font-size: 12px;
+                    line-height: 24px;
+                    font-weight: 600;
+                    text-transform: capitalize;
+                    &:last-child() {
+                        margin-right: 0;
+                    }
+                }
             }
         }
-        
+
     }
 
     .card-footer {
@@ -110,4 +142,3 @@
         }
     }
 }
-
