@@ -454,6 +454,7 @@ body.modal-popup {
   margin-left: 50px;
   border-radius: 8px;
   flex-direction: column;
+  overflow: hidden;
   width: 34.5em;
   height: 36.375em;
 }
@@ -550,9 +551,15 @@ body.modal-popup {
   font-weight: 700;
   color: #A0B2CF;
 }
+.new-message-card .card-body .email-body {
+  height: 336px;
+  margin-bottom: 28px;
+}
 .new-message-card .card-footer {
   background-color: #F4F7FA;
-  padding: 14px 24px 10px 24px;
+  padding: 24px 24px 32px 24px;
+  height: 72px;
+  line-height: 24px;
   display: flex;
 }
 .new-message-card .card-footer .left ul {
