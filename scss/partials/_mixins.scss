@@ -9,3 +9,7 @@
     width: px-to-rem($w);
     height: px-to-rem($h);
 }
+
+@mixin font-color($color) {
+    color: $color;
+}
