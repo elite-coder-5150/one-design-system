@@ -5,7 +5,7 @@
     border-radius: 8px;
     //ßdisplay: flex;
     flex-direction: column;
-
+    overflow: hidden;
     @include size(552, 582);
 
     .card-header {
@@ -121,11 +121,18 @@
             }
         }
 
+        .email-body {
+            height: 336px;
+            margin-bottom: 40px - 12px;
+        }
+
     }
 
     .card-footer {
         background-color: $clr-footer-bg;
-        padding: 14px 24px 10px 24px;
+        padding: 24px 24px 32px 24px;
+        height: 72px;
+        line-height: 24px;
         display: flex;
 
         .left {
