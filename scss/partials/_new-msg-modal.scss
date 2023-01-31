@@ -3,10 +3,13 @@
     margin-top: 50px;
     margin-left: 50px;
     border-radius: 8px;
-    //ßdisplay: flex;
+  //  display: flex;
     flex-direction: column;
-    overflow: hidden;
-    @include size(552, 582);
+    flex-wrap: wrap;
+    // overflow: hidden;
+   
+    width: 552px;
+    height: auto;
 
     .card-header {
         padding: 30px 32px;
@@ -37,9 +40,9 @@
     }
 
     .card-body {
-        padding: 30px 32px;
+        padding: 0px 32px;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
 
 
 
@@ -56,7 +59,7 @@
         }
 
         .new-msg-form {
-            display: flex;
+            // display: flex;
             flex-direction: column;
             flex-wrap: nowrap;
             width: calc(100% - 32px);
@@ -124,6 +127,56 @@
         .email-body {
             height: 336px;
             margin-bottom: 40px - 12px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+            height: 330px - 125px;
+            p {
+                width: 489px;
+                font-size: 12px;
+                line-height: 18px;
+                margin-top: 10px;
+                
+                @include font-color($clr-body-copy);
+
+               &.first {
+                    margin-top: 0;
+                }
+               
+
+                a {
+                    @include font-color($clr-link-text);
+
+                    text-decoration: none;
+                    font-size: 14px;
+                    font-weight: 600;
+                }
+            }
+        }
+
+        .attachment {
+            display: flex;
+            margin-top: 20px;
+            .icon {
+                @include size(40, 40);
+
+                border: 1px solid $clr-base-border;
+
+                .figma-icon {
+                    margin-left: 6px;
+                }
+            }
+
+            .attachment-name {
+                line-height: 40px;
+                margin-left: 10px;
+                font-size: 12px;
+                font-weight: 600;
+
+                @include font-color($clr-body-copy);
+
+            }
         }
 
     }
@@ -131,7 +184,7 @@
     .card-footer {
         background-color: $clr-footer-bg;
         padding: 24px 24px 32px 24px;
-        height: 72px;
+        max-height: 72px;
         line-height: 24px;
         display: flex;
 
@@ -148,6 +201,7 @@
 
         .right {
             margin-left: auto;
+            line-height: 24px;
 
             .tool-bar {
                 list-style: none;
@@ -156,6 +210,7 @@
                 li {
                     margin-left: 15px;
                     @include size(44, 44);
+                    border: 1px solid $clr-base-border;
 
                     &:nth-child(5) {
                         @include size(90, 44);
@@ -171,6 +226,7 @@
                     text-transform: capitalize;
                     font-size: 12px;
                     border-radius: 8px;
+                    margin-top: -10px;
                 }
             }
         }
