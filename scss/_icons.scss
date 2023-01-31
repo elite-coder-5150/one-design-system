@@ -63,3 +63,19 @@
     background: url('../img/template-icon.png') no-repeat;
     @include size(24, 24);
 }
+
+.tag-user-icon {
+    background: url('../img/tag-users.png') no-repeat;
+    @include size(24, 24);
+}
+
+.attach-icon {
+    background: url('../img/attach-file-icon.png') no-repeat;
+    @include size(24, 24);
+}
+
+.schedule-icon {
+    background: url('../img/schedule-icon.png') no-repeat;
+    @include size(24, 24);
+}
+
