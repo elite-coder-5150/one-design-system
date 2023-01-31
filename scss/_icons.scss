@@ -79,3 +79,9 @@
     @include size(24, 24);
 }
 
+.figma-icon {
+    background: url('../img/figma-logo.png') center center no-repeat;
+    @include size(24, 24);
+
+    margin-top: 6px;
+}
