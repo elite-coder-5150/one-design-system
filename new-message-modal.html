@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="icon" href="img/ods-favicon.png">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body class="modal-popup">
     <div class="new-message-card">
         <heder class="card-header">
@@ -32,7 +34,21 @@
                 </ul>
             </nav>
         </heder>
-        <div class="card-body">testing</div>
+
+        <div class="card-body">
+
+            <form class="new-msg-form">
+                <div class="form-group">
+                    <label for="to-email">from</label>
+                    <div class="avatar">
+                        <img src="" alt="">
+                    </div>
+                    <input type="text" id="to-email">
+                </div>
+            </form>
+ß
+        </div>
+
         <footer class="card-footer">
             <div class="left">
                 <ul class="tools">
@@ -46,8 +62,9 @@
                             <div class="more-icon"></div>
                         </div>
                     </li>
-                </ul>                
+                </ul>
             </div>
+
             <div class="right">
                 <ul class="tool-bar">
                     <li>
@@ -55,9 +72,28 @@
                             <div class="template-icon"></div>
                         </div>
                     </li>
+                    <li>
+                        <div class="icon">
+                            <div class="tag-user-icon"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <div class="attach-icon"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <div class="schedule-icon"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <button class="md-primary">send email</button>
+                    </li>
                 </ul>
             </div>
         </footer>
     </div>
 </body>
+
 </html>
