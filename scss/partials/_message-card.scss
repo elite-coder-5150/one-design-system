@@ -2,8 +2,8 @@
     width: 1600px;
     height: 1900px;
     background: $clr-dark-bg;
-    
-    
+    display: flex;
+    flex-direction: column;
     border-radius: 8px;
     // q: how do i center this in the middle of the screen?
     // margin: auto;
@@ -12,7 +12,7 @@
 
     .app-bar,
     .left-sidebar {
-        float: left;
+        color: $clr-primary;
     }
 
     .app-bar {
@@ -21,6 +21,10 @@
         
     }
 
+    .main-content {
+        display: flex;
+        flex-direction: row;
+    }
     .left-sidebar {
         width: 300px;
         height: 900px;
