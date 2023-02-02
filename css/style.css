@@ -639,7 +639,7 @@ body.modal-popup {
   margin-top: -10px;
 }
 
-header {
+.main-header {
   display: flex;
   background: #051835;
   height: 50px;
