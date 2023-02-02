@@ -9,7 +9,7 @@ const getTweets = async (query, count) => {
 	const url = `https://api.twitter.com/2/tweets/search/recent?query=${encodeURIComponent(query)}&max_results=${count}`;
 	
 	const response = await axios.get(url, {headers});
-	const tweets = resonse.data.data
+	const tweets = response.data.data
 	
 	return tweets.map(tweet => tweet.text)
 }
@@ -17,6 +17,6 @@ const getTweets = async (query, count) => {
 const query = '#javascript'
 const count = 10
 
-getTweet(query, count)
+getTweets(query, count)
 	.then(tweets => console.log(tweets))
 	.catch(error => console.log(error))
