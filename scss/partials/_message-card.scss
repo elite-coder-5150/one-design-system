@@ -30,5 +30,32 @@
         height: 900px;
         border-right: 1px solid $clr-dark-border;
         border-left: 1px solid $clr-dark-border;
+        // padding: 20px;
+        .users {
+            header {
+                @include flex();
+                padding: 10px 20px;
+
+                span {
+                    margin-left: auto;
+                    
+                }
+            }
+            .user-list {
+                @include unstyled-list();
+                @include flex();
+
+                max-width: 325px;
+                margin-top: 24px;
+            }
+
+            li {
+                margin-left: -20px;
+                
+                &:first-child {
+                    margin-left: 9px;
+                }
+            }
+        }
     }
 }
