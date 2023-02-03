@@ -23,6 +23,26 @@
                 padding: 15px;
                 font-family: $base-font-family;
                 
+                height: 250px;
+
+                &::placeholder {
+                    color: $clr-form-label-text;
+                    font-weight: 600;
+                }
+            }
+
+            .tool-bar {
+                .tools {
+                    list-style: none;
+                    @include flex();
+
+                    // border-top: 1px solid $clr-base-border;
+                }
+
+                li {
+                    margin-right: 10px;
+                    padding: 8px;
+                }
             }
         }
     }
