@@ -202,6 +202,19 @@ body.modal-popup {
   border: none;
   padding: 15px;
   font-family: "Inter", sans-serif;
+  height: 250px;
+}
+.share-card .card-body .input-bg .message::placeholder {
+  color: #A0B2CF;
+  font-weight: 600;
+}
+.share-card .card-body .input-bg .tool-bar .tools {
+  list-style: none;
+  display: flex;
+}
+.share-card .card-body .input-bg .tool-bar li {
+  margin-right: 10px;
+  padding: 8px;
 }
 .share-card .card-footer {
   display: flex;
@@ -777,4 +790,22 @@ body.modal-popup {
   width: 1.5em;
   height: 1.5em;
   margin-top: 6px;
+}
+
+.bold-icon {
+  background: url("../img/bold-icon.png") no-repeat;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.italic-icon {
+  background: url("../img/italic-icon.png") no-repeat;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.underline-icon {
+  background: url("../img/underline-icon.png") no-repeat;
+  width: 1.5em;
+  height: 1.5em;
 }
