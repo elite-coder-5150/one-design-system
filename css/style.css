@@ -691,6 +691,27 @@ body.modal-popup {
   border-right: 1px solid #18345C;
   border-left: 1px solid #18345C;
 }
+.messenger-card .left-sidebar .users header {
+  display: flex;
+  padding: 10px 20px;
+}
+.messenger-card .left-sidebar .users header span {
+  margin-left: auto;
+}
+.messenger-card .left-sidebar .users .user-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  max-width: 325px;
+  margin-top: 24px;
+}
+.messenger-card .left-sidebar .users li {
+  margin-left: -20px;
+}
+.messenger-card .left-sidebar .users li:first-child {
+  margin-left: 9px;
+}
 
 .light-icon {
   background: url("../img/light-mod-icon.png") no-repeat;
