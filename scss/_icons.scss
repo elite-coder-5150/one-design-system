@@ -85,3 +85,18 @@
 
     margin-top: 6px;
 }
+
+.bold-icon {
+    background: url('../img/bold-icon.png') no-repeat;
+    @include size(24, 24);
+}
+
+.italic-icon {
+    background: url('../img/italic-icon.png') no-repeat;
+    @include size(24, 24);
+}
+
+.underline-icon {
+    background: url('../img/underline-icon.png') no-repeat;
+    @include size(24, 24);
+}
