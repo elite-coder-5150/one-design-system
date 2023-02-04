@@ -100,3 +100,8 @@
     background: url('../img/underline-icon.png') no-repeat;
     @include size(24, 24);
 }
+
+.user-icon {
+    background: url('../img/messages/user-icon.png')  no-repeat;
+    @include size(24, 24);
+}
