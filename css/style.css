@@ -723,6 +723,62 @@ body.modal-popup {
   margin-left: 9px;
 }
 
+.profile {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  color: #932BFF;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.profile .icon-bg {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #932BFF;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 1.5rem;
+}
+.profile .social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.profile .social .social-icon {
+  width: 24px;
+  height: 24px;
+  margin: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #932BFF;
+  font-size: 1.5rem;
+}
+.profile .name {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.profile .bio {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+.profile .btn {
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #932BFF;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
 .light-icon {
   background: url("../img/light-mod-icon.png") no-repeat;
   width: 1.5em;
