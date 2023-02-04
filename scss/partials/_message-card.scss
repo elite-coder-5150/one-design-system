@@ -32,19 +32,6 @@
         border-left: 1px solid $clr-dark-border;
         // padding: 20px;
 
-        .profile {
-            @include flex();
-
-            .icon-bg {
-                width: 44px;
-                height: 44px;
-
-            }
-
-            .social {
-                display: flex;
-            }
-        }
         .users {
             header {
                 @include flex();
