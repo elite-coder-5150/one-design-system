@@ -691,16 +691,6 @@ body.modal-popup {
   border-right: 1px solid #18345C;
   border-left: 1px solid #18345C;
 }
-.messenger-card .left-sidebar .profile {
-  display: flex;
-}
-.messenger-card .left-sidebar .profile .icon-bg {
-  width: 44px;
-  height: 44px;
-}
-.messenger-card .left-sidebar .profile .social {
-  display: flex;
-}
 .messenger-card .left-sidebar .users header {
   display: flex;
   padding: 10px 20px;
