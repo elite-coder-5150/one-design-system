@@ -715,6 +715,9 @@ body.modal-popup {
 
 .profile {
   display: flex;
+  flex-wrap: wrap;
+  max-height: 369px;
+  border-bottom: 1px solid #18345C;
   width: 100%;
   height: 100%;
   background-color: #051835;
@@ -726,7 +729,7 @@ body.modal-popup {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: #932BFF;
+  background-color: #102A4F;
   margin-bottom: 20px;
   display: flex;
   justify-content: center;
@@ -750,9 +753,13 @@ body.modal-popup {
   color: #932BFF;
   font-size: 1.5rem;
 }
-.profile .name {
-  font-size: 1.5rem;
+.profile .user-name {
+  font-size: 1em;
   margin-bottom: 20px;
+  width: 100%;
+  text-transform: capitalize;
+  text-align: center;
+  color: #fff;
 }
 .profile .bio {
   font-size: 1rem;
@@ -924,13 +931,19 @@ body.modal-popup {
 }
 
 .user-icon {
-  background: url("../img/messages/user-icon.png") no-repeat;
+  background: url("../img/messages/user-icon.png") center center no-repeat;
   width: 1.5em;
   height: 1.5em;
 }
 
 .bell-icon {
   background: url("../img/notifications/bell-outline-icon.svg") no-repeat;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.more-dark-icon {
+  background: url("../img/messages/more-dark-icon.png") center center no-repeat;
   width: 1.5em;
   height: 1.5em;
 }
