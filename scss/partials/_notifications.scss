@@ -1,0 +1,39 @@
+.notify {
+    background: $clr-dark-bg;
+
+    .icon {
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    .notifications-card {
+        background: $clr-dark-bg;
+        width: 300px;
+        height: 500px;
+        border: 1px solid $clr-dark-border;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    .card-header {
+        // @include flex();
+        flex-direction: row;
+        padding: 10px;
+        
+    }
+
+    .card-body {
+        @include flex();
+
+        .title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-left: 20px;
+        }
+        ul {
+            @include unstyled-list();
+        }
+    }
+
+    .card-footer {
+        @include flex();
+    }
+}
