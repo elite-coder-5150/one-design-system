@@ -769,6 +769,16 @@ body.modal-popup {
   margin-bottom: 20px;
 }
 
+.notify .card-header {
+  display: flex;
+}
+.notify .card-body {
+  display: flex;
+}
+.notify .card-footer {
+  display: flex;
+}
+
 .light-icon {
   background: url("../img/light-mod-icon.png") no-repeat;
   width: 1.5em;
@@ -889,6 +899,12 @@ body.modal-popup {
 
 .user-icon {
   background: url("../img/messages/user-icon.png") no-repeat;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.bell-icon {
+  background: url("../img/notifications/bell-outline-icon.svg") no-repeat;
   width: 1.5em;
   height: 1.5em;
 }
