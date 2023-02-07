@@ -105,3 +105,8 @@
     background: url('../img/messages/user-icon.png')  no-repeat;
     @include size(24, 24);
 }
+
+.bell-icon {
+    background: url('../img/notifications/bell-outline-icon.svg') no-repeat;
+    @include size(24, 24);
+}
