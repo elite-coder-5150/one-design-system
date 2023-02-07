@@ -102,11 +102,16 @@
 }
 
 .user-icon {
-    background: url('../img/messages/user-icon.png')  no-repeat;
+    background: url('../img/messages/user-icon.png') center center  no-repeat;
     @include size(24, 24);
 }
 
 .bell-icon {
     background: url('../img/notifications/bell-outline-icon.svg') no-repeat;
+    @include size(24, 24);
+}
+
+.more-dark-icon {
+    background: url('../img/messages/more-dark-icon.png') center center no-repeat;
     @include size(24, 24);
 }
