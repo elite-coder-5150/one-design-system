@@ -769,11 +769,37 @@ body.modal-popup {
   margin-bottom: 20px;
 }
 
+.notify {
+  background: #051835;
+}
+.notify .icon {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.notify .notifications-card {
+  background: #051835;
+  width: 300px;
+  height: 500px;
+  border: 1px solid #18345C;
+  margin-left: 50px;
+  margin-top: 10px;
+}
 .notify .card-header {
-  display: flex;
+  flex-direction: row;
+  padding: 10px;
 }
 .notify .card-body {
   display: flex;
+}
+.notify .card-body .title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+.notify .card-body ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .notify .card-footer {
   display: flex;
