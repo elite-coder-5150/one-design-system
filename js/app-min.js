@@ -1,0 +1,1 @@
+import Notify from"./notify.js";class App{init(){this.notify=Notify.init()}}let t=new App;t.init();
