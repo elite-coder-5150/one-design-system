@@ -23,3 +23,12 @@
 // getTweets(query, count)
 // 	.then(tweets => console.log(tweets))
 // 	.catch(error => console.log(error))
+import Notify from './notify.js';
+class App {
+    init() {
+        this.notify = Notify.init()
+    }
+}
+
+let t = new App();
+t.init();
