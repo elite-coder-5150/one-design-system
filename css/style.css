@@ -728,6 +728,11 @@ body.modal-popup {
   margin-left: 9px;
 }
 
+/***** 02 - app-bar styles *****/
+.app-bar {
+  display: flex;
+}
+
 .profile {
   display: flex;
   flex-wrap: wrap;
@@ -820,10 +825,12 @@ body.modal-popup {
   display: flex;
 }
 
+/***** contacts in messenger styles *****/
 .contacts {
   display: flex;
 }
 
+/****** 01 - icons *****/
 .light-icon {
   background: url("../img/light-mod-icon.png") no-repeat;
   width: 1.5em;
