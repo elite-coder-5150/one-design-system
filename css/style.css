@@ -346,13 +346,13 @@ body.modal-popup {
   background: #FF5713;
 }
 .event-card .card-body .event-form .colors-list li.yellow {
-  background: #FFC800;
+  background: #ffd024;
 }
 .event-card .card-body .event-form .colors-list li.green {
-  background: #00EAC9;
+  background: #00d200;
 }
 .event-card .card-body .event-form .colors-list li.blue {
-  background: #00C2FF;
+  background: #0087ff;
 }
 .event-card .card-body .event-form .colors-list li.purple {
   background: #932BFF;
@@ -741,16 +741,16 @@ body.modal-popup {
   height: 3em;
 }
 .app-bar .icon-bg.green {
-  background: #00D200;
+  background: #00d200;
 }
 .app-bar .icon-bg.yellow {
-  background: #FFD024;
+  background: #ffd024;
 }
 .app-bar .icon-bg.pink {
-  background: #FF177C;
+  background: #ff177c;
 }
 .app-bar .icon-bg.blue {
-  background: #0087FF;
+  background: #0087ff;
 }
 
 .profile {
@@ -845,7 +845,7 @@ body.modal-popup {
   display: flex;
 }
 
-/***** contacts in messenger styles *****/
+/***** 016 - contacts in messenger styles *****/
 .contacts {
   display: flex;
 }
