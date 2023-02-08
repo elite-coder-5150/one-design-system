@@ -23,26 +23,31 @@
         font-size: 1.5rem;
     }
 
+    .avatar {
+        margin: 40px 15px 0 23px;
+    }
+
     .social {
         display: flex;
         justify-content: center;
         align-items: center;
         margin-bottom: 20px;
+        @include unstyled-list();
+        margin: 0 auto;
+        text-align: center;
 
-        .social-icon {
-            width: 24px;
-            height: 24px;
-            margin: 0 10px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: $clr-primary;
-            font-size: 1.5rem;
+        li {
+            @include size(44, 44);
+            background: #102A4F;
+            text-align: center; 
+            line-height: 60px;
+            border-radius: 22px;
+            margin-right: 16px;
         }
     }
 
     .user-name {
-        font-size: px-to-rem(16);
+        font-size: px-to-rem(14);
         margin-bottom: 20px;
         width: 100%;
         text-transform: capitalize;
@@ -50,19 +55,5 @@
         @include font-color($clr-light-bg);
     }
 
-    .bio {
-        font-size: 1rem;
-        margin-bottom: 20px;
-    }
-
-    .btn {
-        width: 100%;
-        height: 40px;
-        border-radius: 20px;
-        background-color: $clr-primary;
-        color: $clr-light-bg;
-        font-size: 1rem;
-        font-weight: 600;
-        margin-bottom: 20px;
-    }
+   
 }
