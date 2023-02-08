@@ -8,19 +8,19 @@
         @include size(48, 48);
 
         &.green {
-            background: #00D200;
+            background: $clr-green;
         }
 
         &.yellow {
-            background: #FFD024;
+            background: $clr-yellow;
         }
 
         &.pink {
-            background: #FF177C;
+            background: $clr-pink;
         }
 
         &.blue {
-            background: #0087FF;
+            background: $clr-blue;
         }
     }
 }
