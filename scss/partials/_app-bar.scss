@@ -1,4 +1,26 @@
 /***** 02 - app-bar styles *****/
 .app-bar {
     @include flex();
+    @include unstyled-list();
+
+    flex-direction: column;
+    .icon-bg {
+        @include size(48, 48);
+
+        &.green {
+            background: #00D200;
+        }
+
+        &.yellow {
+            background: #FFD024;
+        }
+
+        &.pink {
+            background: #FF177C;
+        }
+
+        &.blue {
+            background: #0087FF;
+        }
+    }
 }
