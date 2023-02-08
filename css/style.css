@@ -731,6 +731,26 @@ body.modal-popup {
 /***** 02 - app-bar styles *****/
 .app-bar {
   display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-direction: column;
+}
+.app-bar .icon-bg {
+  width: 3em;
+  height: 3em;
+}
+.app-bar .icon-bg.green {
+  background: #00D200;
+}
+.app-bar .icon-bg.yellow {
+  background: #FFD024;
+}
+.app-bar .icon-bg.pink {
+  background: #FF177C;
+}
+.app-bar .icon-bg.blue {
+  background: #0087FF;
 }
 
 .profile {
