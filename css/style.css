@@ -686,19 +686,34 @@ body.modal-popup {
   flex-direction: row;
 }
 .messenger-card .left-sidebar {
-  width: 300px;
+  width: 440px;
   height: 900px;
   border-right: 1px solid #18345C;
   border-left: 1px solid #18345C;
 }
-.messenger-card .left-sidebar .users header {
+.messenger-card .left-sidebar .active-users header {
   display: flex;
   padding: 10px 20px;
 }
-.messenger-card .left-sidebar .users header span {
+.messenger-card .left-sidebar .active-users header span {
   margin-left: auto;
 }
-.messenger-card .left-sidebar .users .user-list {
+.messenger-card .left-sidebar .active-users header .section-title {
+  font-size: 0.875em;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-right: auto;
+  color: #fff;
+}
+.messenger-card .left-sidebar .active-users header .view-all-badge {
+  padding: 4px 12px;
+  font-size: 0.75em;
+  background: #102A4F;
+  border-radius: 16px;
+  text-transform: capitalize;
+  color: #CDD6E6;
+}
+.messenger-card .left-sidebar .active-users .user-list {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -706,10 +721,10 @@ body.modal-popup {
   max-width: 325px;
   margin-top: 24px;
 }
-.messenger-card .left-sidebar .users li {
+.messenger-card .left-sidebar .active-users li {
   margin-left: -20px;
 }
-.messenger-card .left-sidebar .users li:first-child {
+.messenger-card .left-sidebar .active-users li:first-child {
   margin-left: 9px;
 }
 
