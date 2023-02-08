@@ -1,4 +1,8 @@
 /***** 016 - contacts in messenger styles *****/
 .contacts {
     @include flex();
+
+    header {
+        @include flex();
+    }
 }
