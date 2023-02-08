@@ -2,4 +2,5 @@
 
 #### Tabke of contents
 
-1. [Look it up on Google](https;//www.google)
+1. [Messenger App](./docs/messenger.md)
+2. [GitHub redesign](./docs/git-redesign.md)
