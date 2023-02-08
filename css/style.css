@@ -850,6 +850,9 @@ body.modal-popup {
 .contacts {
   display: flex;
 }
+.contacts header {
+  display: flex;
+}
 
 /****** 01 - icons *****/
 .light-icon {
