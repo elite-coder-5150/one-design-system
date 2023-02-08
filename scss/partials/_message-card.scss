@@ -1,4 +1,4 @@
-.messenger-card{
+.messenger-card {
     width: 1600px;
     height: 1900px;
     background: $clr-dark-bg;
@@ -26,13 +26,13 @@
         flex-direction: row;
     }
     .left-sidebar {
-        width: 300px;
+        width: 440px;
         height: 900px;
         border-right: 1px solid $clr-dark-border;
         border-left: 1px solid $clr-dark-border;
         // padding: 20px;
 
-        .users {
+        .active-users {
             header {
                 @include flex();
                 padding: 10px 20px;
@@ -40,6 +40,25 @@
                 span {
                     margin-left: auto;
                     
+                }
+
+                .section-title {
+                    font-size: px-to-rem(14);
+                    text-transform: capitalize;
+                    font-weight: 600;
+                    margin-right: auto;
+                    @include font-color($clr-light-bg);
+                }
+
+                .view-all-badge {
+                    padding: 4px 12px;
+                    
+                    font-size: px-to-rem(12);
+                    background: #102A4F;
+                    border-radius: 16px;
+                    text-transform: capitalize;
+
+                    @include font-color(#CDD6E6);
                 }
             }
             .user-list {
