@@ -1,27 +1,8 @@
 # This is documentation for the GitHub redesign
+[Go Back](../README.md)
 
-```javascript
-const test = () => {
-    if (this.profile.clicked()) {
+> this is a simple test to see what a blockquote look like. I'm writing this documentation on a MacBook Pro 13' 2015 model, and it works like a new one does.
 
-    }
-}
-```
+<hr>
 
-```scss
-.test-component {
-    .profile {
-        @include flex();
-    }
-}
-```
-
-```c++
-typedef struct studentInfo {
-
-}
-```
-```python
-class test:
-    def __init__():
-        pass
+This Github redesign was by far my favorite design that I have worked with.
