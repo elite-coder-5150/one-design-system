@@ -1,1 +1,1 @@
-import Notify from"./notify.js";class App{init(){this.notify=Notify.init()}}let t=new App;t.init();
+import Notify from"./notify.js";import{Chat}from"./chat.js";class App{init(){this.notify=Notify.init(),this.chat=Chat.init()}}let t=new App;t.init();
