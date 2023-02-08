@@ -24,9 +24,11 @@
 // 	.then(tweets => console.log(tweets))
 // 	.catch(error => console.log(error))
 import Notify from './notify.js';
+import { Chat } from './chat.js';
 class App {
     init() {
         this.notify = Notify.init()
+        this.chat = Chat.init()
     }
 }
 
