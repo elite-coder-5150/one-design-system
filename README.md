@@ -4,3 +4,4 @@
 
 1. [Messenger App](./docs/messenger.md)
 2. [GitHub redesign](./docs/git-redesign.md)
+3. [Dashboard Design](./docs/dashboard.md)
