@@ -820,6 +820,10 @@ body.modal-popup {
   display: flex;
 }
 
+.contacts {
+  display: flex;
+}
+
 .light-icon {
   background: url("../img/light-mod-icon.png") no-repeat;
   width: 1.5em;
