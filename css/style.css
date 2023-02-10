@@ -849,6 +849,7 @@ body.modal-popup {
 /***** 016 - contacts in messenger styles *****/
 .contacts {
   display: flex;
+  flex-direction: column;
 }
 .contacts header {
   display: flex;
