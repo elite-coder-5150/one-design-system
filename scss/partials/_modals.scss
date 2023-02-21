@@ -1,0 +1,74 @@
+.modal-page {
+    background: #021227;
+
+    .container {
+        width: 1440px;
+        margin: 0 auto;
+    }
+
+    .modal-header {
+        display: flex;
+        padding: 32px;
+        .icon {
+            margin: 0 0 0 auto;
+        }
+
+        .title {
+            color: $clr-light-bg;
+            text-transform: capitalize;
+            letter-spacing: 1px;
+        }
+    }
+
+    .modal-body {
+        padding-left: 32px;
+
+        p {
+            font-size: 13px;
+            max-width: 348px;
+            line-height: 20px;
+
+            @include font-color($clr-body-copy)
+        }
+    }
+
+    .modal-card {
+        background: $clr-modal-card;
+        width: 456px;
+        // height: 380px;
+        
+    }
+
+    .modal-footer {
+        display: flex;
+        margin-top: 60px;
+        column-gap: 20px;
+        .button-group {
+            margin: 0 32px 32px  auto;
+            display: flex;
+            column-gap: 20px;
+            button {
+                border: 0;
+                color: $clr-light-bg;
+                text-transform: capitalize;
+
+                &.md-secondary {
+                    padding: 12px 24px;
+                    border-radius: 32px;
+                    background: $clr-secondary-btn-bg;
+                    border: 2px solid #1F3359;
+                }
+                
+                &.md-primary {
+                    padding: 12px 24px;
+                    border-radius: 32px;
+                    background: $clr-primary-btn-bg;
+                }
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
