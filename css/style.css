@@ -855,6 +855,56 @@ body.modal-popup {
   display: flex;
 }
 
+/***** this could be the styles for a toaster type app *****/
+.alert-page {
+  background: #021227;
+  padding-top: 50px;
+  padding-left: 150px;
+}
+.alert-page .alert-card {
+  display: flex;
+  column-gap: 30px;
+  width: 1440px;
+  margin: 0 auto;
+  font-size: 0.75em;
+  /***** 
+   * this component uses the decoration design pattern
+  *****/
+}
+.alert-page .alert-card .alert {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  text-transform: capitalize;
+  padding-left: 25px;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+.alert-page .alert-card .alert.alert-info {
+  background: #1F62FF;
+}
+.alert-page .alert-card .alert.alert-success {
+  background: #00D000;
+}
+.alert-page .alert-card .alert.alert-danger {
+  background: #FB001D;
+}
+.alert-page .alert-card .alert.alert-warning {
+  background: #FFC800;
+}
+.alert-page .alert-card .alert.alert-secondary {
+  background: #00B4F2;
+}
+.alert-page .alert-card .alert.alert-primary {
+  background: #932BFF;
+}
+.alert-page .alert-card .alert .icon {
+  margin-left: auto;
+  margin-right: 17px;
+  margin-top: 18px;
+}
+
 /****** 01 - icons *****/
 .light-icon {
   background: url("../img/light-mod-icon.png") no-repeat;
@@ -988,6 +1038,12 @@ body.modal-popup {
 
 .more-dark-icon {
   background: url("../img/messages/more-dark-icon.png") center center no-repeat;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.close-alert-icon {
+  background: url("../img/alerts//alert-close-icon.png") no-repeat;
   width: 1.5em;
   height: 1.5em;
 }
