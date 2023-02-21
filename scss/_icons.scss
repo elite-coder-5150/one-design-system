@@ -116,3 +116,8 @@
     background: url('../img/messages/more-dark-icon.png') center center no-repeat;
     @include size(24, 24);
 }
+
+.close-alert-icon {
+    background: url('../img/alerts//alert-close-icon.png') no-repeat;
+    @include size(24, 24);
+}
