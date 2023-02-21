@@ -578,7 +578,7 @@ body.modal-popup {
   font-size: 12px;
   line-height: 18px;
   margin-top: 10px;
-  color: #3A5683;
+  color: #A0B2CF;
 }
 .new-message-card .card-body .email-body p.first {
   margin-top: 0;
@@ -606,7 +606,7 @@ body.modal-popup {
   margin-left: 10px;
   font-size: 12px;
   font-weight: 600;
-  color: #3A5683;
+  color: #A0B2CF;
 }
 .new-message-card .card-footer {
   background-color: #F4F7FA;
@@ -905,6 +905,68 @@ body.modal-popup {
   margin-top: 18px;
 }
 
+.modal-page {
+  background: #021227;
+}
+.modal-page .container {
+  width: 1440px;
+  margin: 0 auto;
+}
+.modal-page .modal-header {
+  display: flex;
+  padding: 32px;
+}
+.modal-page .modal-header .icon {
+  margin: 0 0 0 auto;
+}
+.modal-page .modal-header .title {
+  color: #fff;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+.modal-page .modal-body {
+  padding-left: 32px;
+}
+.modal-page .modal-body p {
+  font-size: 13px;
+  max-width: 348px;
+  line-height: 20px;
+  color: #A0B2CF;
+}
+.modal-page .modal-card {
+  background: #0A2142;
+  width: 456px;
+}
+.modal-page .modal-footer {
+  display: flex;
+  margin-top: 60px;
+  column-gap: 20px;
+}
+.modal-page .modal-footer .button-group {
+  margin: 0 32px 32px auto;
+  display: flex;
+  column-gap: 20px;
+}
+.modal-page .modal-footer .button-group button {
+  border: 0;
+  color: #fff;
+  text-transform: capitalize;
+}
+.modal-page .modal-footer .button-group button.md-secondary {
+  padding: 12px 24px;
+  border-radius: 32px;
+  background: #102A4F;
+  border: 2px solid #1F3359;
+}
+.modal-page .modal-footer .button-group button.md-primary {
+  padding: 12px 24px;
+  border-radius: 32px;
+  background: #1F62FF;
+}
+.modal-page .modal-footer .button-group button:hover {
+  cursor: pointer;
+}
+
 /****** 01 - icons *****/
 .light-icon {
   background: url("../img/light-mod-icon.png") no-repeat;
@@ -1044,6 +1106,12 @@ body.modal-popup {
 
 .close-alert-icon {
   background: url("../img/alerts//alert-close-icon.png") no-repeat;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.close-modal-dark-icon {
+  background: url("../img/modals/close-modal-dark-icon.png") no-repeat;
   width: 1.5em;
   height: 1.5em;
 }
