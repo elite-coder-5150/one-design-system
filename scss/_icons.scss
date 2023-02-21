@@ -121,3 +121,8 @@
     background: url('../img/alerts//alert-close-icon.png') no-repeat;
     @include size(24, 24);
 }
+
+.close-modal-dark-icon {
+    background: url('../img/modals/close-modal-dark-icon.png') no-repeat;
+    @include size(24, 24);
+}
