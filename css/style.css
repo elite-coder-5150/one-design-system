@@ -948,6 +948,10 @@ body.modal-popup {
   background: #0A2142;
   width: 456px;
 }
+.modal-page .modal-card.danger {
+  background: #FB001D;
+  margin-top: 50px;
+}
 .modal-page .modal-footer {
   display: flex;
   margin-top: 60px;
