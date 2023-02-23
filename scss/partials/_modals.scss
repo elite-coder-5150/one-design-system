@@ -6,6 +6,19 @@
         margin: 0 auto;
     }
 
+    .modal-cards {
+        display: flex;
+        flex-direction: row;
+
+        .left,
+        .right {
+            float: left;
+        }
+
+        .right {
+            margin-left: 120px;
+        }
+    }
     .modal-header {
         display: flex;
         padding: 32px;
