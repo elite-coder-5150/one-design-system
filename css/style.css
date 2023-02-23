@@ -912,6 +912,17 @@ body.modal-popup {
   width: 1440px;
   margin: 0 auto;
 }
+.modal-page .modal-cards {
+  display: flex;
+  flex-direction: row;
+}
+.modal-page .modal-cards .left,
+.modal-page .modal-cards .right {
+  float: left;
+}
+.modal-page .modal-cards .right {
+  margin-left: 120px;
+}
 .modal-page .modal-header {
   display: flex;
   padding: 32px;
