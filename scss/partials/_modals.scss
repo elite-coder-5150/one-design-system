@@ -50,6 +50,10 @@
         width: 456px;
         // height: 380px;
         
+        &.danger {
+            background: #FB001D;
+            margin-top: 50px;
+        }
     }
 
     .modal-footer {
