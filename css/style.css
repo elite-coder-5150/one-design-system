@@ -24,11 +24,34 @@ body.modal-popup {
   background: #fff;
   border-radius: 8px;
   width: 360px;
+  overflow: hidden;
   border: 1px solid #EFF2F7;
+  margin-top: 50px;
+  margin-left: 50px;
 }
 .card.large, .large.settings-card {
   width: 17.25em;
   height: 25.75em;
+  position: relative;
+}
+.card.large .featured-img, .large.settings-card .featured-img {
+  width: 17.25em;
+  height: 12.5em;
+}
+.card.large .featured-img .icon, .large.settings-card .featured-img .icon {
+  width: 2.75em;
+  height: 2.75em;
+  background: #102A4F;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+.card .featured-img, .settings-card .featured-img {
+  background: #EAEEF6;
+  width: 100%;
+  background: #EAEEF6;
+  width: 100%;
+  height: 200px;
 }
 
 .settings-card {
@@ -1297,6 +1320,12 @@ body.modal-popup {
 
 .view-icon {
   background: url("../img/tables/view-icon.png") no-repeat;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.favorites-icon {
+  background: url("../img/cards/favorites-icon.png") no-repeat;
   width: 1.5em;
   height: 1.5em;
 }
