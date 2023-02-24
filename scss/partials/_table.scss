@@ -13,12 +13,20 @@
     overflow: hidden;
     height: 404px;
 
+    thead {
+        border-bottom: 1px solid $clr-table-border;
+        height: 67px;
+    }
+
     th {
         font-weight: 400;
         text-align: left;
         padding-left: 20px;
-        padding-top: 24px;
+        padding-top: 12px;
         font-size: 12px;
+        text-transform: capitalize;
+        
+        @include font-color($clr-table-heading);
 
         &:nth-child(2) {
             width: 81px;
@@ -44,15 +52,16 @@
         padding-left: 20px;
         padding-right: 20px;
         font-size: 12px;
+        padding: 20px 0;
 
         .profile-bg {
             @include size(44, 44);
             border-radius: 22px;
             text-align: center;
-            line-height: 32px;
+            line-height: 30px;
             font-weight: 700;
             text-transform: uppercase;
-
+           
             &.purple {
                 background: $clr-purple;
             }
@@ -69,8 +78,14 @@
                 background: $clr-default-gray;
                 color: $clr-dark-bg;
             }
+
+            // &:nth-child(odd) {
+
+            // }
+
+
         }
-        
+
         .tools {
             @include unstyled-list();
             @include flex();
