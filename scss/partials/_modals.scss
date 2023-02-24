@@ -1,6 +1,6 @@
 .modal-page {
     background: #021227;
-
+    padding-top: 50px;
     .container {
         width: 1440px;
         margin: 0 auto;
@@ -51,8 +51,54 @@
         // height: 380px;
         
         &.danger {
-            background: #FB001D;
+            background: $clr-danger;
             margin-top: 50px;
+
+            .error-icon {
+                margin: 0 auto;
+            }
+
+            .modal-heading {
+                color: $clr-light-bg;
+                text-align: center;
+                margin-top: 32px;
+
+                &::first-letter {
+                    text-transform: capitalize;
+                }
+            }
+
+            p {
+                color: $clr-light-bg;
+                text-align: center;
+                font-size: 12px;
+                width: 250px;
+                margin: 32px auto 0 auto;
+            }
+        }
+
+        &.success {
+            background: $clr-success;
+            color: $clr-light-bg;
+            margin-top: 50px;
+
+            .success-icon {
+                margin: 0 auto;
+            }
+
+            .modal-heading {
+                text-align: center;
+                margin-top: 32px;
+            }
+
+            p {
+                color: $clr-light-bg;
+                width: 250px;
+                margin: 0 auto;
+                text-align: center;
+                margin-top: 32px;
+                margin-bottom: 64px;
+            }
         }
     }
 
@@ -60,6 +106,7 @@
         display: flex;
         margin-top: 60px;
         column-gap: 20px;
+        
         .button-group {
             margin: 0 32px 32px  auto;
             display: flex;
