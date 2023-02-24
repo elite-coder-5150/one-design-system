@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables | One Design Ssystem</title>
+    <link rel="icon" href="img/ods-favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <table class="users-table">
+        <thead>
+            <tr>
+                <th><!----- custom checkbox -----></th>
+                <th>avatar</th>
+                <th>username</th>
+                <th>email</th>
+                <th>role</th>
+                <th>posts</th>
+                <th>tools</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>
+                    <div class="profile-bg">zg</div>
+                </td>
+                <td>Zach Gomez</td>
+                <td>zgomez@gmail.com</td>
+                <td>editor</td>
+                <td>20</td>
+                <td>
+                    <!----- I would create a component for this ----->
+                    <ul class="tools">
+                        <li>
+                            <a href="#">
+                                <div class="icon">
+                                    <div class="edit-icon"></div>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <div class="icon">
+                                    <div class="delete-icon"></div>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <div class="icon">
+                                    <div class="view-icon"></div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
