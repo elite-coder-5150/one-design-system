@@ -18,6 +18,7 @@
         text-align: left;
         padding-left: 20px;
         padding-top: 24px;
+        font-size: 12px;
 
         &:nth-child(2) {
             width: 81px;
@@ -42,7 +43,33 @@
         text-align: left;
         padding-left: 20px;
         padding-right: 20px;
-        
+        font-size: 12px;
+
+        .profile-bg {
+            @include size(44, 44);
+            border-radius: 22px;
+            text-align: center;
+            line-height: 32px;
+            font-weight: 700;
+            text-transform: uppercase;
+
+            &.purple {
+                background: $clr-purple;
+            }
+
+            &.orange {
+                background: $clr-orange;
+            }
+
+            &.green {
+                background: #00D000;
+            }
+
+            &.default-gray {
+                background: #EFF2F7;
+                color: $clr-dark-bg;
+            }
+        }
         .tools {
             @include unstyled-list();
             @include flex();
