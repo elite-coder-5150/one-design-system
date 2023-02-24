@@ -126,3 +126,18 @@
     background: url('../img/modals/close-modal-dark-icon.png') no-repeat;
     @include size(24, 24);
 }
+
+.close-modal-light-icon {
+    background: url('../img/modals/close-modal-light-icon.png') no-repeat;
+    @include size(24, 24);
+}
+
+.error-icon {
+    background: url('../img/modals/error-icon.png') no-repeat;
+    @include size(64, 64);
+}
+
+.success-icon {
+    background: url('../img/modals//success-icon.png') no-repeat;
+    @include size(64, 64);
+}
