@@ -1021,6 +1021,61 @@ body.modal-popup {
   cursor: pointer;
 }
 
+.table-bdy {
+  background: #021227;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.users-table {
+  display: table;
+  border-collapse: collapse;
+  color: #fff;
+  background: #0A2142;
+  padding-bottom: 20px;
+  overflow: hidden;
+  height: 404px;
+}
+.users-table th {
+  font-weight: 400;
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 24px;
+}
+.users-table th:nth-child(2) {
+  width: 81px;
+}
+.users-table th:nth-child(3) {
+  width: 215px;
+}
+.users-table th:nth-child(4) {
+  width: 220px;
+}
+.users-table th:nth-child(5), .users-table th:nth-child(6) {
+  width: 119px;
+}
+.users-table th:nth-child(7) {
+  width: 95px;
+}
+.users-table td {
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.users-table td .tools {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.users-table td .tools li {
+  margin-right: 12px;
+}
+.users-table td .tools li:last-child {
+  margin-right: 0;
+}
+
 /****** 01 - icons *****/
 .light-icon {
   background: url("../img/light-mod-icon.png") no-repeat;
@@ -1186,4 +1241,22 @@ body.modal-popup {
   background: url("../img/modals//success-icon.png") no-repeat;
   width: 4em;
   height: 4em;
+}
+
+.edit-icon {
+  background: url("../img/tables/edit-icon.png") no-repeat;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.delete-icon {
+  background: url("../img/tables/delete-icon.png") no-repeat;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.view-icon {
+  background: url("../img/tables/view-icon.png") no-repeat;
+  width: 1.5em;
+  height: 1.5em;
 }
