@@ -1037,12 +1037,18 @@ body.modal-popup {
   overflow: hidden;
   height: 404px;
 }
+.users-table thead {
+  border-bottom: 1px solid #102A4F;
+  height: 67px;
+}
 .users-table th {
   font-weight: 400;
   text-align: left;
   padding-left: 20px;
-  padding-top: 24px;
+  padding-top: 12px;
   font-size: 12px;
+  text-transform: capitalize;
+  color: #57719D;
 }
 .users-table th:nth-child(2) {
   width: 81px;
@@ -1064,13 +1070,14 @@ body.modal-popup {
   padding-left: 20px;
   padding-right: 20px;
   font-size: 12px;
+  padding: 20px 0;
 }
 .users-table td .profile-bg {
   width: 2.75em;
   height: 2.75em;
   border-radius: 22px;
   text-align: center;
-  line-height: 32px;
+  line-height: 30px;
   font-weight: 700;
   text-transform: uppercase;
 }
