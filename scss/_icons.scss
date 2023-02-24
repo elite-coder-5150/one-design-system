@@ -156,3 +156,8 @@
     background: url('../img/tables/view-icon.png') no-repeat;
     @include size(24, 24);
 }
+
+.favorites-icon {
+    background: url('../img/cards/favorites-icon.png') no-repeat;
+    @include size(24, 24);
+}
