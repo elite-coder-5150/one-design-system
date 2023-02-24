@@ -907,6 +907,7 @@ body.modal-popup {
 
 .modal-page {
   background: #021227;
+  padding-top: 50px;
 }
 .modal-page .container {
   width: 1440px;
@@ -951,6 +952,44 @@ body.modal-popup {
 .modal-page .modal-card.danger {
   background: #FB001D;
   margin-top: 50px;
+}
+.modal-page .modal-card.danger .error-icon {
+  margin: 0 auto;
+}
+.modal-page .modal-card.danger .modal-heading {
+  color: #fff;
+  text-align: center;
+  margin-top: 32px;
+}
+.modal-page .modal-card.danger .modal-heading::first-letter {
+  text-transform: capitalize;
+}
+.modal-page .modal-card.danger p {
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  width: 250px;
+  margin: 32px auto 0 auto;
+}
+.modal-page .modal-card.success {
+  background: #00D000;
+  color: #fff;
+  margin-top: 50px;
+}
+.modal-page .modal-card.success .success-icon {
+  margin: 0 auto;
+}
+.modal-page .modal-card.success .modal-heading {
+  text-align: center;
+  margin-top: 32px;
+}
+.modal-page .modal-card.success p {
+  color: #fff;
+  width: 250px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 64px;
 }
 .modal-page .modal-footer {
   display: flex;
@@ -1129,4 +1168,22 @@ body.modal-popup {
   background: url("../img/modals/close-modal-dark-icon.png") no-repeat;
   width: 1.5em;
   height: 1.5em;
+}
+
+.close-modal-light-icon {
+  background: url("../img/modals/close-modal-light-icon.png") no-repeat;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.error-icon {
+  background: url("../img/modals/error-icon.png") no-repeat;
+  width: 4em;
+  height: 4em;
+}
+
+.success-icon {
+  background: url("../img/modals//success-icon.png") no-repeat;
+  width: 4em;
+  height: 4em;
 }
