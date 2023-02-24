@@ -1,9 +1,18 @@
+.card-page {
+    background: $clr-dark-bg;
+}
 .card {
     background: $clr-light-bg;
     border-radius: 8px;
     // padding: 20px 32px;
     width: 360px;
     // height: 564px;
+
+    border: 1px solid $clr-base-border;
+
+    &.large {
+        @include size(276, 412);
+    }
 }
 
 .test {
