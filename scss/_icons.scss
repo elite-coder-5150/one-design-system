@@ -141,3 +141,18 @@
     background: url('../img/modals//success-icon.png') no-repeat;
     @include size(64, 64);
 }
+
+.edit-icon {
+    background: url('../img/tables/edit-icon.png') no-repeat;
+    @include size(24, 24);
+}
+
+.delete-icon {
+    background: url('../img/tables/delete-icon.png') no-repeat;
+    @include size(24, 24);
+}
+
+.view-icon {
+    background: url('../img/tables/view-icon.png') no-repeat;
+    @include size(24, 24);
+}
