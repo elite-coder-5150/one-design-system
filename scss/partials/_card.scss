@@ -16,17 +16,7 @@
     &.large {
         @include size(276, 412);
         position: relative;
-        .featured-img {
-            @include size(276, 200);
-
-            .icon {
-                @include size(44, 44);
-                background: $clr-favorite-icon-bg;
-                position: absolute;
-                top: 0;
-                z-index: 1;
-            }
-        }
+        
     }
 
     .featured-img {
@@ -41,4 +31,19 @@
 
 .test {
     @extend card !optional;
+}
+
+.featured-img {
+    @include size(276, 200);
+
+    .icon {
+        @include size(44, 44);
+        background: $clr-favorite-icon-bg;
+        position: absolute;
+        top: 0;
+        z-index: 1;
+    }
+
+    
+
 }
