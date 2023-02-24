@@ -62,14 +62,15 @@
             }
 
             &.green {
-                background: #00D000;
+                background: $clr-green;
             }
 
             &.default-gray {
-                background: #EFF2F7;
+                background: $clr-default-gray;
                 color: $clr-dark-bg;
             }
         }
+        
         .tools {
             @include unstyled-list();
             @include flex();
