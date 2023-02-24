@@ -7,11 +7,35 @@
     // padding: 20px 32px;
     width: 360px;
     // height: 564px;
+    overflow: hidden;
 
     border: 1px solid $clr-base-border;
+    margin-top: 50px;
+    margin-left: 50px;
 
     &.large {
         @include size(276, 412);
+        position: relative;
+        .featured-img {
+            @include size(276, 200);
+
+            .icon {
+                @include size(44, 44);
+                background: $clr-favorite-icon-bg;
+                position: absolute;
+                top: 0;
+                z-index: 1;
+            }
+        }
+    }
+
+    .featured-img {
+        background: $clr-featured-img;
+        width: 100%;
+
+        background: $clr-featured-img;
+        width: 100%;
+        height: 200px;
     }
 }
 
