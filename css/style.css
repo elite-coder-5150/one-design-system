@@ -16,10 +16,19 @@ body.modal-popup {
   flex-direction: column;
 }
 
+.card-page {
+  background: #051835;
+}
+
 .card, .settings-card {
   background: #fff;
   border-radius: 8px;
   width: 360px;
+  border: 1px solid #EFF2F7;
+}
+.card.large, .large.settings-card {
+  width: 17.25em;
+  height: 25.75em;
 }
 
 .settings-card {
