@@ -55,6 +55,10 @@ body.modal-popup {
   z-index: 1;
 }
 
+.dark-header {
+  background: #051835;
+}
+
 .settings-card {
   position: absolute;
   top: 184px;
