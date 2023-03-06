@@ -1144,6 +1144,46 @@ body.modal-popup {
   margin-right: 0;
 }
 
+.git-card {
+  width: 1600px;
+  height: 1200px;
+  background: #051835;
+  margin: 50px auto 0 auto;
+}
+.git-card header {
+  border-bottom: 1px solid #EFF2F7;
+  padding: 24px 36px;
+  display: flex;
+}
+.git-card header .logo {
+  margin-right: 44px;
+}
+.git-card header ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.git-card header ul li {
+  margin-right: 32px;
+}
+.git-card header ul a {
+  text-decoration: none;
+  color: #CDD6E6;
+  font-size: 0.875em;
+  line-height: 38px;
+  text-transform: capitalize;
+}
+.git-card .card-body {
+  display: flex;
+  color: #fff;
+}
+.git-card .card-body .left-sidebar {
+  width: 298px;
+  height: 1108px;
+  border-right: 1px solid #EFF2F7;
+}
+
 /****** 01 - icons *****/
 .light-icon {
   background: url("../img/light-mod-icon.png") no-repeat;
