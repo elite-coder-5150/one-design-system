@@ -1151,7 +1151,7 @@ body.modal-popup {
   margin: 50px auto 0 auto;
 }
 .git-card header {
-  border-bottom: 1px solid #EFF2F7;
+  border-bottom: 1px solid #18345C;
   padding: 24px 36px;
   display: flex;
 }
@@ -1174,6 +1174,79 @@ body.modal-popup {
   line-height: 38px;
   text-transform: capitalize;
 }
+.git-card header .search-container {
+  margin-left: 52px;
+}
+.git-card header .search-container .input-bg {
+  background: #0A2142;
+  width: 280px;
+  height: 44px;
+  border-radius: 8px;
+  border: 1px solid #18345C;
+  display: flex;
+}
+.git-card header .search-container .input-bg .icon {
+  margin: 8px 10px 0 auto;
+}
+.git-card header .search-container .input-bg input {
+  background: transparent;
+  border: none;
+  text-indent: 15px;
+}
+.git-card .main-content {
+  width: 53.0625em;
+  height: 53.75em;
+  padding-top: 27px;
+}
+.git-card .main-content .button-group {
+  display: flex;
+  margin-left: auto;
+  margin-right: -32px;
+}
+.git-card .main-content .button-group button {
+  background: #102A4F;
+  border: none;
+  display: flex;
+  margin-left: 12px;
+  text-transform: capitalize;
+}
+.git-card .main-content .button-group button .icon {
+  margin-right: 8px;
+}
+.git-card .main-content .button-group button.sm-secondary {
+  border: 2px solid #18345C;
+  color: #CDD6E6;
+  padding: 6px 8px;
+}
+.git-card .main-content header {
+  display: flex;
+}
+.git-card .main-content .breadcrumb {
+  display: flex;
+  font-size: 1.125em;
+}
+.git-card .main-content .breadcrumb li {
+  margin-right: 8px;
+  display: flex;
+}
+.git-card .main-content .breadcrumb .sep {
+  margin-right: 8px;
+  margin-left: 6px;
+}
+.git-card .main-content .breadcrumb a {
+  margin-top: -6px;
+  text-transform: lowercase;
+}
+.git-card .main-content .breadcrumb .public-badge {
+  font-size: 0.625em;
+  padding: 4px 12px;
+  background: #1F62FF;
+  line-height: 20px;
+  border-radius: 16px;
+  margin-left: 16px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
 .git-card .card-body {
   display: flex;
   color: #fff;
@@ -1181,7 +1254,24 @@ body.modal-popup {
 .git-card .card-body .left-sidebar {
   width: 298px;
   height: 1108px;
-  border-right: 1px solid #EFF2F7;
+  border-right: 1px solid #18345C;
+  padding: 32px;
+}
+.git-card .card-body .right-sidebar {
+  margin-left: 48px;
+  padding-top: 44px;
+}
+.git-card .card-body .right-sidebar .title {
+  font-size: 1.25em;
+  margin-bottom: 24px;
+  text-transform: capitalize;
+}
+.git-card .card-body .right-sidebar .about .meta {
+  display: flex;
+}
+.git-card .card-body .right-sidebar .about a {
+  color: #1F62FF;
+  font-weight: bold;
 }
 
 /****** 01 - icons *****/
@@ -1371,6 +1461,60 @@ body.modal-popup {
 
 .favorites-icon {
   background: url("../img/cards/favorites-icon.png") no-repeat;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.light-search-icon {
+  background: url("../img/light-search-icon.png") no-repeat;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.mail-body-icon {
+  background: url("../img/mail-box-icon.png") no-repeat;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.bar-chart-icon {
+  background: url("../img/bar-chart-icon.png") no-repeat;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.language-icon {
+  background: url("../img/language-icon.png") no-repeat;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.link-icon {
+  background: url("../img/link.svg") no-repeat;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.home-icon {
+  background: url("../img/home-icon.png") no-repeat;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.sm-sponsor-icon {
+  background: url("../img/sm-sponsor-icon.png") no-repeat;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.sm-notification-icon {
+  background: url("../img/sm-notification-icon.png") no-repeat;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.sm-simple-icon {
+  background: url("../img/sm-simple-icon.png") no-repeat;
   width: 1.5em;
   height: 1.5em;
 }
