@@ -1,0 +1,157 @@
+@import "vars.scss";
+@import "mixins";
+
+.git-card {
+    width: 1600px;
+    height: 1200px;
+    background: $clr-git-card-bg;
+    margin: 50px auto 0 auto;
+
+    header {
+        //height: 52px;
+        border-bottom: 1px solid $clr-dark-base-border;
+        padding: 24px 36px;
+
+        @include flex();
+
+        .logo {
+            margin-right: 44px;
+        }
+
+        ul {
+            @include unstyled-list();
+            @include flex();
+
+            li {
+                margin-right: 32px;
+            }
+
+            a {
+                @include reset-link();
+                @include font-color($clr-light-link);
+                @include font-size(px-to-rem(14));
+                line-height: 38px;
+                text-transform: capitalize;
+            }
+        }
+
+        .search-container {
+            margin-left: 52px;
+
+            .input-bg {
+                background: $clr-search-bg;
+                width: 280px;
+                height: 44px;
+                border-radius: 8px;
+                border: 1px solid $clr-dark-base-border;
+                //padding-top: 12px;
+                display: flex;
+
+                .icon {
+                    margin: 8px 10px 0 auto;
+                }
+
+                input {
+                    background: transparent;
+                    border: none;
+                    text-indent: 15px;
+                }
+            }
+        }
+    }
+
+    .main-content {
+        @include size(849, 860);
+        //padding-left: 80px;
+        padding-top: 27px;
+
+        .button-group {
+            @include flex();
+            margin-left: auto;
+            margin-right: -32px;
+            button {
+                background: $clr-secondary-btn;
+                border: none;
+                display: flex;
+                margin-left: 12px;
+                text-transform: capitalize;
+                .icon {
+                    margin-right: 8px;
+                }
+                &.sm-secondary {
+                    border: 2px solid $clr-secondary-btn-border;
+                    color: $clr-secondary-btn-text-two;
+                    padding: 6px 8px;
+                    //line-height: 24px;
+                }
+            }
+        }
+        header {
+            display: flex;
+        }
+        .breadcrumb {
+            @include flex();
+            @include font-size(px-to-rem(18));
+            li {
+                margin-right: 8px;
+                display: flex;
+            }
+
+            .sep {
+                margin-right: 8px;
+                margin-left: 6px;
+            }
+
+            a {
+                margin-top: -6px;
+                text-transform: lowercase;
+            }
+
+            .public-badge {
+                @include font-size(px-to-rem(10));
+                padding: 4px 12px;
+                background: $clr-badge-bg;
+                line-height: 20px;
+                border-radius: 16px;
+                margin-left: 16px;
+                text-transform: capitalize;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .card-body {
+        @include flex();
+        @include font-color(#fff);
+
+        .left-sidebar {
+            width: 298px;
+            height: 1108px;
+            border-right: 1px solid $clr-dark-base-border;
+            padding: 32px;
+        }
+
+        .right-sidebar {
+            margin-left: 48px;
+            padding-top: 44px;
+
+            .title {
+                @include font-size(px-to-rem(20));
+                margin-bottom: 24px;
+                text-transform: capitalize;
+            }
+
+            .about {
+                .meta {
+                    @include flex();
+                }
+
+                a {
+                    @include font-color($clr-link-text);
+
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
