@@ -10,5 +10,23 @@
                 "@babel/preset-react"
             ]
         }
+    },
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true
+    },
+    "parser": "@babel/eslint-parser",
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module",
+        "requireConfigFile": false
+    },
+    "extends": [
+        "eslint:recommended"
+    ],
+    "rules": {
+        "semi": ["error", "always"],
+        "quotes": ["error", "single"]
     }
 }
