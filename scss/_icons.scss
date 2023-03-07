@@ -1,3 +1,4 @@
+@import  "partials/mixins";
 /****** 01 - icons *****/
 .light-icon {
     background: url('../img/light-mod-icon.png')no-repeat;
@@ -159,5 +160,50 @@
 
 .favorites-icon {
     background: url('../img/cards/favorites-icon.png') no-repeat;
+    @include size(24, 24);
+}
+
+.light-search-icon {
+    background: url('../img/light-search-icon.png') no-repeat;
+    @include size(24, 24);
+}
+
+.mail-body-icon {
+    background: url('../img/mail-box-icon.png') no-repeat;
+    @include size(24, 24);
+}
+
+.bar-chart-icon {
+    background: url('../img/bar-chart-icon.png') no-repeat;
+    @include size(24, 24);
+}
+
+.language-icon {
+    background: url('../img/language-icon.png') no-repeat;
+    @include size(24, 24);
+}
+
+.link-icon {
+    background: url('../img/link.svg') no-repeat;
+    @include size(24, 24);
+}
+
+.home-icon {
+    background: url('../img/home-icon.png') no-repeat;
+    @include size(24, 24);
+}
+
+.sm-sponsor-icon {
+    background: url('../img/sm-sponsor-icon.png') no-repeat;
+    @include size(24, 24);
+}
+
+.sm-notification-icon {
+    background: url('../img/sm-notification-icon.png') no-repeat;
+    @include size(24, 24);
+}
+
+.sm-simple-icon {
+    background: url('../img/sm-simple-icon.png') no-repeat;
     @include size(24, 24);
 }
