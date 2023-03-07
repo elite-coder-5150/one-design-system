@@ -23,3 +23,11 @@
 @mixin flex() {
     display: flex;
 }
+
+@mixin reset-link() {
+    text-decoration: none;
+}
+
+@mixin font-size($size) {
+    font-size: $size;
+}
