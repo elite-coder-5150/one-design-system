@@ -36,12 +36,11 @@
 10. [Dashboard](./dashboard.md) - The dashboard is a collection of various widgets. The widgets
     can be used to display various stats, or to display various events. The dashboard can be 
     used as a standalone application, or it can be used as a widget within another application.
-    The dashboard can also be used for an ecommerce backend.
+    The dashboard can also be used for an ecommerce backend. 
 
 11.[Notifications](./notification.md) - The notification is a simple notification that can be
      used to notify the user of various events. The notification can be used as a standalone 
      component, or it can be used as a widget within another application.
-
 12. [Checkout modal](./checkout-modal.md) - The checkout modal is a simple modal that can be used
     to display a user's cart. The checkout modal can be used as a standalone component, or it can
     be used as a widget within another application.
@@ -61,7 +60,5 @@
     generic way.
 
 <hr>
-
-
 
 
