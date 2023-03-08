@@ -69,6 +69,7 @@
             @include flex();
             margin-left: auto;
             margin-right: -32px;
+
             button {
                 background: $clr-secondary-btn;
                 border: none;
@@ -82,13 +83,14 @@
                     border: 2px solid $clr-secondary-btn-border;
                     color: $clr-secondary-btn-text-two;
                     padding: 6px 8px;
-                    //line-height: 24px;
                 }
             }
         }
+
         header {
             display: flex;
         }
+
         .breadcrumb {
             @include flex();
             @include font-size(px-to-rem(18));
@@ -128,7 +130,22 @@
             width: 298px;
             height: 1108px;
             border-right: 1px solid $clr-dark-base-border;
-            padding: 32px;
+            //padding: 32px;
+            @include flex();
+            .profile {
+                height: 44px;
+                @include flex();
+                .profile-bg {
+                    @include size(44, 44);
+
+                    border-radius: 22px;
+                    background: $clr-profile-bg;
+                    color: $clr-light-bg;
+                    text-align: center;
+                    line-height: 40px;
+                    text-transform: uppercase;
+                }
+            }
         }
 
         .right-sidebar {
@@ -148,7 +165,6 @@
 
                 a {
                     @include font-color($clr-link-text);
-
                     font-weight: bold;
                 }
             }
