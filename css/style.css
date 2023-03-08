@@ -577,9 +577,6 @@ body.modal-popup {
   font-weight: 600;
   text-transform: capitalize;
 }
-.new-message-card .card-body .new-msg-form .form-group li:last-child() {
-  margin-right: 0;
-}
 .new-message-card .card-body .new-msg-form .subject {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -761,7 +758,7 @@ body.modal-popup {
 .messenger-card .left-sidebar .active-users li {
   margin-left: -20px;
 }
-.messenger-card .left-sidebar .active-users li:first-child {
+.messenger-card .left-sidebar .active-users li:first-child(1) {
   margin-left: 9px;
 }
 
@@ -1023,7 +1020,6 @@ body.modal-popup {
 .modal-page .modal-card.success p {
   color: #fff;
   width: 250px;
-  margin: 0 auto;
   text-align: center;
   margin-top: 32px;
   margin-bottom: 64px;
@@ -1255,7 +1251,21 @@ body.modal-popup {
   width: 298px;
   height: 1108px;
   border-right: 1px solid #18345C;
-  padding: 32px;
+  display: flex;
+}
+.git-card .card-body .left-sidebar .profile {
+  height: 44px;
+  display: flex;
+}
+.git-card .card-body .left-sidebar .profile .profile-bg {
+  width: 2.75em;
+  height: 2.75em;
+  border-radius: 22px;
+  background: #1F62FF;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  text-transform: uppercase;
 }
 .git-card .card-body .right-sidebar {
   margin-left: 48px;
@@ -1272,6 +1282,31 @@ body.modal-popup {
 .git-card .card-body .right-sidebar .about a {
   color: #1F62FF;
   font-weight: bold;
+}
+
+.checkout-modal {
+  display: grid;
+  height: 100vh;
+}
+.checkout-modal .checkout-card {
+  width: 34.5em;
+  height: 44em;
+  background: #fff;
+}
+.checkout-modal .checkout-card .card-header {
+  width: 34.5625em;
+  height: 3.875em;
+  background: #FAFBFC;
+  border-bottom: 1px solid #EFF2F7;
+}
+.checkout-modal .checkout-card .card-footer {
+  width: 34.5625em;
+  height: 3.875em;
+  background: #FAFBFC;
+  border-top: 1px solid #EFF2F7;
+}
+.checkout-modal .checkout-card .card-footer .button-group {
+  margin-left: auto;
 }
 
 /****** 01 - icons *****/
@@ -1412,7 +1447,7 @@ body.modal-popup {
 }
 
 .close-alert-icon {
-  background: url("../img/alerts//alert-close-icon.png") no-repeat;
+  background: url("../img/alerts/alert-close-icon.png") no-repeat;
   width: 1.5em;
   height: 1.5em;
 }
@@ -1436,7 +1471,7 @@ body.modal-popup {
 }
 
 .success-icon {
-  background: url("../img/modals//success-icon.png") no-repeat;
+  background: url("../img/modals/success-icon.png") no-repeat;
   width: 4em;
   height: 4em;
 }
