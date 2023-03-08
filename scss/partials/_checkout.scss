@@ -1,0 +1,29 @@
+@import "mixins";
+@import "vars";
+
+.checkout-modal {
+    display: grid;
+    height: 100vh;
+
+    .checkout-card {
+        @include size(552, 704);
+        background: $clr-light-bg;
+        .card-header {
+            @include size(553, 62);
+            background: $clr-checkout-header-bg;
+            border-bottom: 1px solid $clr-base-border;
+        }
+
+        .card-body {}
+
+        .card-footer {
+            @include size(553, 62);
+            background: $clr-checkout-header-bg;
+            border-top: 1px solid $clr-base-border;
+
+            .button-group {
+                margin-left: auto;
+            }
+        }
+    }
+}
