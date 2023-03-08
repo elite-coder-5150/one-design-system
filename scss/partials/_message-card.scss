@@ -75,7 +75,7 @@
             li {
                 margin-left: -20px;
                 
-                &:first-child {
+                &:first-child(1) {
                     margin-left: 9px;
                 }
             }
