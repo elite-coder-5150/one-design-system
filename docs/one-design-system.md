@@ -38,12 +38,30 @@
     used as a standalone application, or it can be used as a widget within another application.
     The dashboard can also be used for an ecommerce backend.
 
-11. [Modals](./modals) - 
+11.[Notifications](./notification.md) - The notification is a simple notification that can be
+     used to notify the user of various events. The notification can be used as a standalone 
+     component, or it can be used as a widget within another application.
 
-12. [Notifications](./notification.md) - The notification is a simple notification that can be
-    used to notify the user of various events. The notification can be used as a standalone 
-    component, or it can be used as a widget within another application.
-
-13. [Checkout modal](./checkout-modal.md) - The checkout modal is a simple modal that can be used
+12. [Checkout modal](./checkout-modal.md) - The checkout modal is a simple modal that can be used
     to display a user's cart. The checkout modal can be used as a standalone component, or it can
     be used as a widget within another application.
+
+13. [Share Modal](./share-modal.md) - The share modal is a simple modal that can be used to share
+    a post. The share modal can be used as a standalone component, or it can be used as a widget
+    within another application. You can also use the modal in a generic way.
+
+14. [Create Event Modal](./create-event-modal.md) - The create event modal is a simple modal that
+    can be used to create an event. The create event modal can be used as a standalone component,
+    or it can be used as a widget within another application. You can also use the modal in a 
+    generic way.
+
+15. [Github Profile](./github-profile.md) - The GitHub profile is a simple component that can be used to display
+    a user's profile on GitHub. The GitHub profile can be used as a standalone component, or it 
+    can be used as a widget within another application. You can also use the component in a 
+    generic way.
+
+<hr>
+
+
+
+
