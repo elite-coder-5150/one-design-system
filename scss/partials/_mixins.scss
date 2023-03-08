@@ -31,3 +31,8 @@
 @mixin font-size($size) {
     font-size: $size;
 }
+
+@mixin size($w, $h) {
+    width: px-to-rem($w);
+    height: px-to-rem($h);
+}
