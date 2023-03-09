@@ -2,7 +2,7 @@
 
 1. [GitHub Redesign](./git-redesign.md) - The GitHub redesign is a simple redesign of the GitHub website.
 
-2. [Alerts](./alerts.md) - The alerts were designed to notify the user of various events. like
+2. [Alerts](Alerts.md) - The alerts were designed to notify the user of various events. like
     successfully removing a post, blocking a user, or notify the user that there comment was
     successfully posted.
 
@@ -33,7 +33,7 @@
     It contains three boards, initialized, in progress, and completed. The user can drag and drop
     tasks between the boards.
 
-10. [Dashboard](./dashboard.md) - The dashboard is a collection of various widgets. The widgets
+10. [Dashboard](Dashboard.md) - The dashboard is a collection of various widgets. The widgets
     can be used to display various stats, or to display various events. The dashboard can be 
     used as a standalone application, or it can be used as a widget within another application.
     The dashboard can also be used for an ecommerce backend. 
@@ -58,6 +58,12 @@
     a user's profile on GitHub. The GitHub profile can be used as a standalone component, or it 
     can be used as a widget within another application. You can also use the component in a 
     generic way.
+
+16. [Load Balancer](./load-balancer-python.md) - 
+
+To be honest I also like that way Typora looks. The text is a little too small, but that is find because I have no problem reading the text. I love the way that the text wraps to the next line when there is too many words to fit on one row.
+
+
 
 <hr>
 
