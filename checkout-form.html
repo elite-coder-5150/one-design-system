@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Checkout | One design system</title>
+    <link rel="icon" href="img/ods-favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="checkout-card">
+        <header class="card-header">
+            <div class="icon">
+                <div class="back-arrow"></div>
+            </div>
+            <div class="title">checkout</div>
+            <div class="icon">
+                <div class="close-icon"></div>
+            </div>
+        </header>
+
+        <div class="card-body">
+            <ul class="items-list">
+                <li class="cart-item">
+                    <div class="row">
+                    <div class="icon-bg">
+                        <div class="star-icon"></div>
+                    </div>
+                    <div class="product-name">premium plan</div>
+                    <span class="price">$16</span>
+                    <p class="product-description">$16 / month - billed monthly</p>
+                    </div>
+                </li>
+                <li class="card-item">
+                    <div class="icon">
+                        <div class="base-icon"></div>
+                    </div>
+                    <div class="plan-name">basic plan</div>
+                    <span class="price"></span>
+                    <p class="product-description">
+                        $8 / month - billed monthly
+                    </p>
+                </li>
+            </ul>
+
+            <div class="coupon">
+                <form class="coupon-form">
+                    <label for="coupon-code"></label>
+                    <input type="text" id="coupon-code" placeholder="Coupon code">
+                    <button class="sm-secondary">apply</button>
+                </form>
+            </div>
+        </div>
+
+        <footer class="card-footer">
+            <div class="button-group">
+                <button class="lg-secondary">pay with card</button>
+                <button class="lg-primary">pay with payPal</button>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
